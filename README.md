@@ -6,20 +6,59 @@ Designed for Home Assistant custom integrations, companion libraries, custom Lov
 
 ---
 
-## 🚀 CDN Direct Usage (Fast & Open)
+## 🚀 Installation & Direct CDN Usage
 
-You can fetch the master JSON dataset directly via jsDelivr CDN. Both frontend dashboard cards (Lovelace / card-mod) and Python backend integrations consume the **exact same JSON structure and CDN URL**:
+You can consume the master database either as a Python client package or directly via jsDelivr CDN:
 
+### 1. Direct CDN URL (JavaScript / Lovelace Cards)
 ```
 https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json
+```
+
+### 2. Python Package (`panasonic_ac_models`)
+```bash
+pip install git+https://github.com/selvakk2k/panasonic-ac-models.git
 ```
 
 ---
 
 ## 💻 How to Use in Your Project
 
-### 1. In Lovelace Dashboards & Custom Cards (JavaScript / card-mod)
-Frontend cards can fetch `models.json` via CDN to dynamically show or hide UI controls (e.g. Nanoe switch, Heat mode button) based on the connected AC model:
+### Option A: Using the Python Client Package (Recommended for Backend Integrations)
+
+The `panasonic_ac_models` Python package provides an $O(1)$ lookup engine with automatic prefix normalization (`CS/CU-` ➔ `CS-`, casing/whitespace tolerance) and deterministic regex fallback decoding for unindexed SKUs:
+
+```python
+from panasonic_ac_models import ACModelLookup
+
+# 1. Initialize lookup engine (loads models.json)
+lookup = ACModelLookup()
+
+# 2. Lookup capabilities for any model variation
+caps = lookup.get_capabilities("CS/CU-EZ18BKYD")
+
+print("Series:", caps["series"])                # "EZ"
+print("Heat Mode:", caps["has_heat_mode"])     # 1 (Dual Hot & Cold)
+print("Nanoe:", caps["has_nanoe"])             # 0
+print("Converti Mode:", caps["converti_type"]) # "7-in-1"
+
+# 3. Gate your integration features dynamically!
+hvac_modes = ["cool", "heat", "off"] if caps["has_heat_mode"] == 1 else ["cool", "off"]
+show_nanoe = (caps["has_nanoe"] == 1)
+
+if caps["converti_type"] == "8-in-1":
+    presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_60", "cv_50", "cv_40"]
+elif caps["converti_type"] == "7-in-1":
+    presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_55", "cv_40"]
+else:
+    presets = []  # "none" -> Hide converti presets
+```
+
+---
+
+### Option B: Direct CDN Fetch (JavaScript / Lovelace Cards)
+
+Frontend cards can fetch `models.json` directly via CDN to dynamically show or hide UI controls:
 
 ```js
 fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json")
@@ -31,72 +70,6 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
     console.log("Nanoe:", family.has_nanoe);              // 0
     console.log("Converti Mode:", family.converti_type);  // "7-in-1"
   });
-```
-
-### 2. In Python Backend Integrations & Libraries
-Backend integrations can instantly load a bundled local copy of `models.json` at startup, lookup feature gating flags, and asynchronously update the local cache from CDN in the background:
-
-```python
-import aiohttp
-import json
-import os
-
-CDN_URL = "https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json"
-BUNDLED_PATH = os.path.join(os.path.dirname(__file__), "models.json")
-
-
-def load_model_database(cache_path: str | None = None) -> dict:
-    """Instantly load model database (<1ms) from local cache or bundled fallback."""
-    active_path = cache_path if cache_path and os.path.exists(cache_path) else BUNDLED_PATH
-    with open(active_path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def find_ac_family(indoor_model_code: str, db: dict) -> dict | None:
-    """Finds which hardware family contains your AC model code."""
-    for family in db.get("families", []):
-        if indoor_model_code in family["indoor_units"]:
-            return family
-    return None
-
-
-async def async_update_cdn_cache(session: aiohttp.ClientSession, cache_path: str) -> None:
-    """Non-blocking background task: Fetches latest models.json from CDN."""
-    try:
-        async with session.get(CDN_URL, timeout=aiohttp.ClientTimeout(total=10)) as resp:
-            if resp.status == 200:
-                remote_data = await resp.json()
-                os.makedirs(os.path.dirname(cache_path), exist_ok=True)
-                with open(cache_path, "w", encoding="utf-8") as f:
-                    json.dump(remote_data, f, indent=2)
-    except Exception:
-        pass  # Keep using local bundled copy if offline or CDN unavailable
-
-
-# =========================================================
-# EXAMPLE: Gating AC Features for a User's Device
-# =========================================================
-db = load_model_database()
-user_ac_model = "CS-EZ18BKYD"  # Example 1.5T Hot & Cold AC
-
-family = find_ac_family(user_ac_model, db)
-
-if family:
-    # 1. Gate Heat Mode (Hot & Cold)
-    has_heat = (family["has_heat_mode"] == 1)
-    hvac_modes = ["cool", "heat", "off"] if has_heat else ["cool", "off"]
-
-    # 2. Gate Nanoe Air Purification Switch
-    has_nanoe = (family["has_nanoe"] == 1)
-
-    # 3. Gate Converti Capacity Presets
-    converti = family["converti_type"]
-    if converti == "8-in-1":
-        converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_60", "cv_50", "cv_40"]
-    elif converti == "7-in-1":
-        converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_55", "cv_40"]
-    else:
-        converti_presets = []  # "none" -> Hide converti capacity selector
 ```
 
 ---
@@ -137,7 +110,7 @@ We welcome community pull requests! To add or update a model:
 
 1. Edit `models.json`.
 2. Add your indoor unit model number under the appropriate `indoor_units` array in `families`.
-3. Submit a Pull Request! GitHub Actions will validate your PR against `schema.json`.
+3. Submit a Pull Request! GitHub Actions will validate your PR automatically against `schema.json`.
 
 ---
 
