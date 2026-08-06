@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panasonic_ac_models"
+version = "1.0.0-beta.7"
+description = "Hardware database and feature gating lookup engine for Panasonic Smart ACs (Indian Market / MirAIe IoT)"
+readme = "README.md"
+authors = [
+    { name = "selvakk2k", email = "selvakk2k@users.noreply.github.com" }
+]
+requires-python = ">=3.9"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/selvakk2k/panasonic-ac-models"
+Documentation = "https://github.com/selvakk2k/panasonic-ac-models#readme"
+Repository = "https://github.com/selvakk2k/panasonic-ac-models.git"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["panasonic_ac_models*"]
+
+[tool.setuptools.package-data]
+"*" = ["models.json"]

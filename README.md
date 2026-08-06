@@ -8,7 +8,7 @@ Designed for Home Assistant custom integrations, companion libraries, custom Lov
 
 ## 🚀 Installation & Direct CDN Usage
 
-You can consume the master database either as a Python client package or directly via jsDelivr CDN:
+You can consume the master database either as an importable Python package or directly via jsDelivr CDN:
 
 ### 1. Direct CDN URL (JavaScript / Lovelace Cards)
 ```
@@ -31,10 +31,10 @@ The `panasonic_ac_models` Python package provides an $O(1)$ lookup engine with a
 ```python
 from panasonic_ac_models import ACModelLookup
 
-# 1. Initialize lookup engine (loads models.json)
+# 1. Initialize lookup engine (loads bundled models.json)
 lookup = ACModelLookup()
 
-# 2. Lookup capabilities for any model variation
+# 2. Lookup capabilities for any model variation (handles CS/CU-, lower/upper case, extra spaces)
 caps = lookup.get_capabilities("CS/CU-EZ18BKYD")
 
 print("Series:", caps["series"])                # "EZ"
@@ -58,17 +58,27 @@ else:
 
 ### Option B: Direct CDN Fetch (JavaScript / Lovelace Cards)
 
-Frontend cards can fetch `models.json` directly via CDN to dynamically show or hide UI controls:
+Frontend cards can fetch `models.json` directly via CDN to dynamically show or hide UI controls. 
+
+*Tip: Normalize input model codes (`CS/CU-` ➔ `CS-`) before searching `indoor_units`:*
 
 ```js
 fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json")
   .then(response => response.json())
   .then(data => {
+    const rawModelCode = "CS/CU-NU18AKY4WXD";
+    
+    // Normalize model prefix (handles CS/CU-, CU-, extra whitespace)
+    const cleanModel = rawModelCode.replace(/^(CS\/CU|CU)[-_\s]?/i, 'CS-').trim().toUpperCase();
+
     // Find model family by indoor unit model code
-    const family = data.families.find(f => f.indoor_units.includes("CS-NU18AKY4WXD"));
-    console.log("Heat Mode:", family.has_heat_mode);      // 0
-    console.log("Nanoe:", family.has_nanoe);              // 0
-    console.log("Converti Mode:", family.converti_type);  // "7-in-1"
+    const family = data.families.find(f => f.indoor_units.includes(cleanModel));
+    
+    if (family) {
+      console.log("Heat Mode:", family.has_heat_mode);      // 0
+      console.log("Nanoe:", family.has_nanoe);              // 0
+      console.log("Converti Mode:", family.converti_type);  // "7-in-1"
+    }
   });
 ```
 

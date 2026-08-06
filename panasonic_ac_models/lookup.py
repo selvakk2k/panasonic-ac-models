@@ -4,9 +4,12 @@ import re
 from typing import Dict, Any, Optional
 from .decoder import decode_model_string
 
-DEFAULT_JSON_PATH = os.path.join(
-    os.path.dirname(os.path.dirname(__file__)), "models.json"
-)
+PKG_DIR = os.path.dirname(__file__)
+PARENT_DIR = os.path.dirname(PKG_DIR)
+
+DEFAULT_JSON_PATH = os.path.join(PKG_DIR, "models.json")
+if not os.path.exists(DEFAULT_JSON_PATH):
+    DEFAULT_JSON_PATH = os.path.join(PARENT_DIR, "models.json")
 
 
 def normalize_code(raw_code: str) -> str:
