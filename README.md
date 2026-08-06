@@ -34,48 +34,7 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
 ```
 
 ### 2. In Python Backend Integrations & Libraries
-Backend integrations can load `models.json` to lookup family gating flags and configure HVAC entity capabilities dynamically:
-
-```python
-import json
-
-# STEP 1: Load models.json into a Python dictionary
-with open("models.json", "r", encoding="utf-8") as f:
-    db = json.load(f)
-
-def find_ac_family(indoor_model_code: str) -> dict | None:
-    """STEP 2: Find which family contains your AC model code."""
-    for family in db["families"]:
-        if indoor_model_code in family["indoor_units"]:
-            return family
-    return None
-
-# STEP 3: Gate your code features using the 4 family flags!
-user_ac = "CS-EZ18BKYD"  # Example 1.5T Hot & Cold AC
-family = find_ac_family(user_ac)
-
-if family:
-    # 1. Gate Heat Mode (Hot & Cold)
-    if family["has_heat_mode"] == 1:
-        hvac_modes = ["cool", "heat", "off"]  # Show HEAT mode in UI
-    else:
-        hvac_modes = ["cool", "off"]          # Cooling-only AC
-
-    # 2. Gate Nanoe Air Purification Switch
-    show_nanoe_switch = (family["has_nanoe"] == 1)
-
-    # 3. Gate Converti Capacity Presets
-    converti = family["converti_type"]
-    if converti == "8-in-1":
-        converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_60", "cv_50", "cv_40"]
-    elif converti == "7-in-1":
-        converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_55", "cv_40"]
-    else:
-        converti_presets = []  # "none" -> Hide converti capacity selector
-```
-
-### 3. Async Background Self-Updating Pattern (Python)
-Backend integrations can load a bundled local copy of `models.json` at startup for instant, zero-latency execution, while asynchronously checking the CDN URL in the background for automatic dataset updates:
+Backend integrations can instantly load a bundled local copy of `models.json` at startup, lookup feature gating flags, and asynchronously update the local cache from CDN in the background:
 
 ```python
 import aiohttp
@@ -85,21 +44,59 @@ import os
 CDN_URL = "https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json"
 BUNDLED_PATH = os.path.join(os.path.dirname(__file__), "models.json")
 
-def load_local_models() -> dict:
-    """Instantly load local bundled models.json (<1ms)."""
-    with open(BUNDLED_PATH, "r", encoding="utf-8") as f:
+
+def load_model_database(cache_path: str | None = None) -> dict:
+    """Instantly load model database (<1ms) from local cache or bundled fallback."""
+    active_path = cache_path if cache_path and os.path.exists(cache_path) else BUNDLED_PATH
+    with open(active_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-async def async_check_for_updates(session: aiohttp.ClientSession, cache_path: str) -> None:
-    """Non-blocking background update check from CDN."""
+
+def find_ac_family(indoor_model_code: str, db: dict) -> dict | None:
+    """Finds which hardware family contains your AC model code."""
+    for family in db.get("families", []):
+        if indoor_model_code in family["indoor_units"]:
+            return family
+    return None
+
+
+async def async_update_cdn_cache(session: aiohttp.ClientSession, cache_path: str) -> None:
+    """Non-blocking background task: Fetches latest models.json from CDN."""
     try:
         async with session.get(CDN_URL, timeout=aiohttp.ClientTimeout(total=10)) as resp:
             if resp.status == 200:
                 remote_data = await resp.json()
+                os.makedirs(os.path.dirname(cache_path), exist_ok=True)
                 with open(cache_path, "w", encoding="utf-8") as f:
                     json.dump(remote_data, f, indent=2)
     except Exception:
-        pass  # Keep using local bundled copy if offline
+        pass  # Keep using local bundled copy if offline or CDN unavailable
+
+
+# =========================================================
+# EXAMPLE: Gating AC Features for a User's Device
+# =========================================================
+db = load_model_database()
+user_ac_model = "CS-EZ18BKYD"  # Example 1.5T Hot & Cold AC
+
+family = find_ac_family(user_ac_model, db)
+
+if family:
+    # 1. Gate Heat Mode (Hot & Cold)
+    has_heat = (family["has_heat_mode"] == 1)
+    hvac_modes = ["cool", "heat", "off"] if has_heat else ["cool", "off"]
+
+    # 2. Gate Nanoe Air Purification Switch
+    has_nanoe = (family["has_nanoe"] == 1)
+
+    # 3. Gate Converti Capacity Presets
+    converti = family["converti_type"]
+    if converti == "8-in-1":
+        converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_60", "cv_50", "cv_40"]
+    elif converti == "7-in-1":
+        converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_55", "cv_40"]
+    else:
+        converti_presets = []  # "none" -> Hide converti capacity selector
 ```
 
 ---
