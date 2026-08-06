@@ -1,0 +1,13 @@
+{
+  "name": "Panasonic AC Model Masterlist",
+  "domain": "panasonic_ac_models",
+  "version": "1.0.0-alpha.1",
+  "documentation": "https://github.com/selvakk2k/panasonic-ac-models",
+  "codeowners": [
+    "@selvakk2k"
+  ],
+  "credits": [
+    "Antigravity AI (Google DeepMind Team) - AI Pair Programming, Database Architecture & Empirical Gating Verification"
+  ],
+  "license": "MIT"
+}
