@@ -109,7 +109,7 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
 
 ## Database Summary
 
-- **Models Tracked**: 403 verified Wi-Fi models across 116 hardware families.
+- **Models Tracked**: 383 verified Wi-Fi models across 110 hardware families.
 - **Data Sources**: Bureau of Energy Efficiency (BEE) certified labels, Panasonic India catalogs, empirical MirAIe telemetry.
 
 ---
