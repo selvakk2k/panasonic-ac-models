@@ -14,7 +14,7 @@ Install via `pip`:
 pip install git+https://github.com/selvakk2k/panasonic-ac-models.git
 ```
 
-Query all 5 gated features using the normalized lookup engine:
+Query feature gating flags using the normalized lookup engine:
 
 ```python
 from panasonic_ac_models import ACModelLookup
@@ -33,7 +33,7 @@ print(f"Family Key:   {caps['family_key']}")
 if caps["has_wifi"] == 1:
     print("-> Wi-Fi Smart AC: Expose MirAIe cloud & MQTT entities.")
 else:
-    print("-> Non-Smart / Fixed-Speed unit: Local IR remote control only.")
+    print("-> Non-Smart unit: Local IR remote control only.")
 
 # -------------------------------------------------------------
 # 2. Gate HVAC Heat Mode (Hot & Cold Series)
@@ -60,13 +60,8 @@ if converti == "8-in-1":
     converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_60", "cv_50", "cv_40"]
 elif converti == "7-in-1":
     converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_55", "cv_40"]
-else:  # "none" -> Pre-2023 sensor auto-convertible or non-smart model
+else:  # "none" -> Pre-2023 sensor auto-convertible or non-smart model: Hide converti presets
     converti_presets = []
-
-# -------------------------------------------------------------
-# 5. Gate Inverter vs Fixed-Speed Compressor Control
-# -------------------------------------------------------------
-is_inverter = (caps["speed_type"] == "variable")
 ```
 
 ---
@@ -91,7 +86,6 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
     console.log("Heat Mode:", family?.has_heat_mode === 1);
     console.log("Nanoe Ionizer:", family?.has_nanoe === 1);
     console.log("Converti Mode:", family?.converti_type);
-    console.log("Inverter:", family?.speed_type === "variable");
   });
 ```
 
