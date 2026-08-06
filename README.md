@@ -33,8 +33,8 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
   });
 ```
 
-### 2. Python Feature Gating Tutorial (Beginner to Intermediate)
-In Python backend integrations or companion libraries, gating features takes 3 simple steps:
+### 2. In Python Backend Integrations & Libraries
+Backend integrations can load `models.json` to lookup family gating flags and configure HVAC entity capabilities dynamically:
 
 ```python
 import json
