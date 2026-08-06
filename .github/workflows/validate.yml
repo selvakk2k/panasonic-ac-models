@@ -1,0 +1,34 @@
+name: Validate Masterlist Schema & Python Package
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install JSonschema Validator
+        run: pip install check-jsonschema
+
+      - name: Validate models.json against schema.json
+        run: check-jsonschema --schemafile schema.json models.json
+
+      - name: Verify Python Module Execution
+        run: |
+          python -c "
+          from panasonic_ac_models import ACModelLookup
+          lookup = ACModelLookup()
+          res = lookup.get_capabilities('CS/CU-SU18AKY3W')
+          assert res['converti_type'] == '7-in-1'
+          print('Local Python module check passed!')
+          "

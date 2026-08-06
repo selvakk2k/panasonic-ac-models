@@ -1,0 +1,16 @@
+# Byte-compiled / Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Binary database files
+*.db
+*.sqlite3
+
+# OS / IDE configurations
+.DS_Store
+.vscode/
+.idea/
