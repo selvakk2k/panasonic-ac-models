@@ -11,7 +11,7 @@ A model capability database and lookup engine for Panasonic Smart Air Conditione
 Install via `pip`:
 
 ```bash
-pip install git+https://github.com/selvakk2k/panasonic-ac-models.git
+pip install panasonic-ac-models
 ```
 
 Query feature gating flags using the normalized lookup engine:
