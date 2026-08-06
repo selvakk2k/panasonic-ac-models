@@ -4,7 +4,9 @@
   "summary": {
     "total_wifi_models": 403,
     "total_wifi_families": 116,
-    "updated_at": "2026-08-06"
+    "updated_at": "2026-08-06",
+    "family_count": 110,
+    "model_count": 383
   },
   "families": [
     {
@@ -1917,8 +1919,8 @@
       "star_rating_max": null,
       "has_wifi": 1,
       "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "has_nanoe": 1,
+      "converti_type": "none",
       "variants": [
         "base"
       ],
@@ -1942,8 +1944,8 @@
       "star_rating_max": null,
       "has_wifi": 1,
       "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "has_nanoe": 1,
+      "converti_type": "none",
       "variants": [
         "base"
       ],
@@ -1966,9 +1968,9 @@
       "star_rating_min": null,
       "star_rating_max": null,
       "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "has_heat_mode": 1,
+      "has_nanoe": 1,
+      "converti_type": "none",
       "variants": [
         "YD"
       ],
@@ -1991,9 +1993,9 @@
       "star_rating_min": 4,
       "star_rating_max": 4,
       "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "has_heat_mode": 1,
+      "has_nanoe": 1,
+      "converti_type": "none",
       "variants": [
         "YD"
       ],
@@ -2016,9 +2018,9 @@
       "star_rating_min": null,
       "star_rating_max": null,
       "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "has_heat_mode": 1,
+      "has_nanoe": 1,
+      "converti_type": "none",
       "variants": [
         "YD"
       ],
@@ -2041,9 +2043,9 @@
       "star_rating_min": null,
       "star_rating_max": null,
       "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "has_heat_mode": 1,
+      "has_nanoe": 1,
+      "converti_type": "none",
       "variants": [
         "YD"
       ],
@@ -2170,185 +2172,6 @@
         "CS-QU26ZKY",
         "CS-QU26ZKYD",
         "CS-QU26ZKYF"
-      ],
-      "ac_types": [
-        "Room Air Conditioner (Variable Speed)",
-        "Split"
-      ]
-    },
-    {
-      "family_key": "RU-09-A",
-      "series": "RU",
-      "generation": "A",
-      "capacity_class": "0.75T",
-      "speed_type": "variable",
-      "model_count": 3,
-      "iseer_min": 3.95,
-      "iseer_max": 3.95,
-      "star_rating_min": 3,
-      "star_rating_max": 3,
-      "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
-      "variants": [
-        "YD",
-        "YF",
-        "base"
-      ],
-      "indoor_units": [
-        "CS-RU9AKY",
-        "CS-RU9AKYD",
-        "CS-RU9AKYF"
-      ],
-      "ac_types": [
-        "Room Air Conditioner (Variable Speed)",
-        "Split"
-      ]
-    },
-    {
-      "family_key": "RU-18-A",
-      "series": "RU",
-      "generation": "A",
-      "capacity_class": "1.5T",
-      "speed_type": "variable",
-      "model_count": 6,
-      "iseer_min": 3.95,
-      "iseer_max": 3.95,
-      "star_rating_min": 3,
-      "star_rating_max": 3,
-      "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
-      "variants": [
-        "YD",
-        "YF",
-        "base"
-      ],
-      "indoor_units": [
-        "CS-RU18AKY",
-        "CS-RU18AKYD",
-        "CS-RU18AKYF",
-        "CS-RU18AKY-1",
-        "CS-RU18AKY-2",
-        "CS-RU18AKYF-2"
-      ],
-      "ac_types": [
-        "Room Air Conditioner (Variable Speed)",
-        "Split"
-      ]
-    },
-    {
-      "family_key": "RU-12-A",
-      "series": "RU",
-      "generation": "A",
-      "capacity_class": "1T",
-      "speed_type": "variable",
-      "model_count": 3,
-      "iseer_min": 3.95,
-      "iseer_max": 3.95,
-      "star_rating_min": 3,
-      "star_rating_max": 3,
-      "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
-      "variants": [
-        "YD",
-        "YF",
-        "base"
-      ],
-      "indoor_units": [
-        "CS-RU12AKY",
-        "CS-RU12AKYD",
-        "CS-RU12AKYF"
-      ],
-      "ac_types": [
-        "Room Air Conditioner (Variable Speed)",
-        "Split"
-      ]
-    },
-    {
-      "family_key": "RU-18-B",
-      "series": "RU",
-      "generation": "B",
-      "capacity_class": "1.5T",
-      "speed_type": "variable",
-      "model_count": 4,
-      "iseer_min": 4.0,
-      "iseer_max": 4.0,
-      "star_rating_min": 3,
-      "star_rating_max": 3,
-      "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
-      "variants": [
-        "YD",
-        "YF",
-        "base"
-      ],
-      "indoor_units": [
-        "CS-RU18BKY",
-        "CS-RU18BKYD",
-        "CS-RU18BKYF",
-        "CS-RU18BKY-1"
-      ],
-      "ac_types": [
-        "Room Air Conditioner (Variable Speed)",
-        "Split"
-      ]
-    },
-    {
-      "family_key": "RU-17-B",
-      "series": "RU",
-      "generation": "B",
-      "capacity_class": "1.5T",
-      "speed_type": "variable",
-      "model_count": 1,
-      "iseer_min": 4.1,
-      "iseer_max": 4.1,
-      "star_rating_min": 3,
-      "star_rating_max": 3,
-      "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
-      "variants": [
-        "base"
-      ],
-      "indoor_units": [
-        "CS-RU17BKY"
-      ],
-      "ac_types": [
-        "Room Air Conditioner (Variable Speed)"
-      ]
-    },
-    {
-      "family_key": "RU-12-B",
-      "series": "RU",
-      "generation": "B",
-      "capacity_class": "1T",
-      "speed_type": "variable",
-      "model_count": 3,
-      "iseer_min": 4.0,
-      "iseer_max": 4.0,
-      "star_rating_min": 3,
-      "star_rating_max": 3,
-      "has_wifi": 1,
-      "has_heat_mode": 0,
-      "has_nanoe": 0,
-      "converti_type": "7-in-1",
-      "variants": [
-        "YD",
-        "YF",
-        "base"
-      ],
-      "indoor_units": [
-        "CS-RU12BKY",
-        "CS-RU12BKYD",
-        "CS-RU12BKYF"
       ],
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
@@ -3491,7 +3314,7 @@
       "has_wifi": 1,
       "has_heat_mode": 0,
       "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "converti_type": "8-in-1",
       "variants": [
         "D",
         "F",
