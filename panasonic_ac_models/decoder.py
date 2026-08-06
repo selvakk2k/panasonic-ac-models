@@ -2,7 +2,7 @@ import re
 from typing import Dict, Any, Optional
 
 PANASONIC_MODEL_REGEX = re.compile(
-    r"^(?:CS/CU|CS|CU|CW|S)?[-_\s]?"
+    r"^(?:CS[-_/\s]?CU|CS/CU|CS|CU|CW|S)?[-_\s]?"
     r"(?P<series>[A-Z]{2})"
     r"(?P<capacity>\d{2})"
     r"(?P<gen>[A-Z])"
