@@ -36,12 +36,14 @@ else:
     print("-> Non-Smart unit: Local IR remote control only.")
 
 # -------------------------------------------------------------
-# 2. Gate HVAC Heat Mode (Hot & Cold Series)
+# 2. Gate HVAC Modes (Common: cool, dry, fan_only, auto, off; EZ/KZ add heat)
 # -------------------------------------------------------------
+common_hvac_modes = ["cool", "dry", "fan_only", "auto", "off"]
+
 if caps["has_heat_mode"] == 1:
-    hvac_modes = ["cool", "heat", "off"]  # Show HEAT mode (EZ & KZ series only)
+    hvac_modes = common_hvac_modes + ["heat"]  # EZ & KZ series dual heat pump
 else:
-    hvac_modes = ["cool", "off"]          # Cooling-only unit
+    hvac_modes = common_hvac_modes           # Cooling-only unit
 
 # -------------------------------------------------------------
 # 3. Gate Nanoe Air Purification Switch
