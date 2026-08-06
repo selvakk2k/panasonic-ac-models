@@ -16,6 +16,9 @@ def normalize_code(raw_code: str) -> str:
     """Normalizes input model strings (e.g. 'cs/cu-su18aky3w' -> 'CS-SU18AKY3W')."""
     cleaned = raw_code.strip().upper()
     cleaned = re.sub(r'^(CS/CU|CU)[-_\s]?', 'CS-', cleaned)
+    # CW- is a window AC prefix — pass through as-is, do not rewrite to CS-
+    if cleaned.startswith('CW-') or cleaned.startswith('CW '):
+        return cleaned
     if not cleaned.startswith('CS-') and not cleaned.startswith('S-'):
         cleaned = f"CS-{cleaned}"
     return cleaned
