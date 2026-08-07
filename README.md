@@ -1,5 +1,8 @@
 # panasonic-ac-models
 
+> [!NOTE]
+> **Regional Scope**: This database specifically tracks Panasonic Air Conditioner SKUs certified and sold in the **Indian Market** (MirAIe IoT platform & BEE rating taxonomy). International Panasonic models (e.g. European/Australian units on *Panasonic Comfort Cloud*) use different SKU naming conventions and cloud APIs.
+
 A model capability database and lookup engine for Panasonic Air Conditioners (Indian Market). Covers both **Wi-Fi / MirAIe smart models** and **IR remote-only models**, providing hardware feature flags for HVAC integrations, Home Assistant custom integrations, companion libraries, and dashboard cards.
 
 ---
