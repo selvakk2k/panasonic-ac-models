@@ -2,8 +2,8 @@
   "$schema": "./schema.json",
   "version": "1.0.0",
   "summary": {
-    "total_wifi_models": 403,
-    "total_wifi_families": 116,
+    "total_wifi_models": 398,
+    "total_wifi_families": 115,
     "updated_at": "2026-08-06",
     "family_count": 110,
     "model_count": 383,
