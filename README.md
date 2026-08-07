@@ -149,8 +149,8 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
 ## Database Summary
 
 - **Models Tracked**: 486 models across 144 hardware families.
-  - **394 Wi-Fi / MirAIe Smart models** across 121 families — for cloud/MQTT integrations.
-  - **92 IR Remote-Only models** across 23 families — for IR blaster integrations.
+  - **398 Wi-Fi / MirAIe Smart models** across 115 families — for cloud/MQTT integrations.
+  - **88 IR Remote-Only models** across 29 families — for IR blaster integrations.
 - **Data Sources**: Bureau of Energy Efficiency (BEE) certified labels, Panasonic India catalogs, empirical MirAIe telemetry, and live retail verification.
 
 ---

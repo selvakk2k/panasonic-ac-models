@@ -25,7 +25,7 @@ CAPACITY_MAP = {
 
 HEAT_MODE_SERIES = {"EZ", "KZ"}
 NANOE_SERIES = {"HU", "XU"}
-NON_WIFI_SERIES = {"KN", "KU", "CW"}
+NON_WIFI_SERIES = {"KN", "KU", "CW", "LN", "XN", "PD", "RU"}
 
 def decode_model_string(model_code: str) -> Optional[Dict[str, Any]]:
     """Parses capability flags from a Panasonic AC model code string via deterministic rules."""
@@ -53,6 +53,7 @@ def decode_model_string(model_code: str) -> Optional[Dict[str, Any]]:
     data = match.groupdict()
     series = data["series"]
     gen = data["gen"]
+    suffix = data.get("suffix", "")
 
     # Converti Generation Logic
     if series in {"EZ", "KZ", "HU", "EU", "AU"}:
@@ -64,13 +65,15 @@ def decode_model_string(model_code: str) -> Optional[Dict[str, Any]]:
     else:
         converti = "none"
 
+    is_non_wifi = (series in NON_WIFI_SERIES) or (series == "SU" and suffix.startswith("T"))
+
     return {
         "family_key": f"{series}-{data['capacity']}-{gen}",
         "series": series,
         "generation": gen,
         "capacity_class": CAPACITY_MAP.get(data["capacity"], f"{data['capacity']} Ton"),
-        "speed_type": "variable",
-        "has_wifi": 0 if series in NON_WIFI_SERIES else 1,
+        "speed_type": "fixed" if series in {"KN", "LN", "XN", "PD"} else "variable",
+        "has_wifi": 0 if is_non_wifi else 1,
         "has_heat_mode": 1 if series in HEAT_MODE_SERIES else 0,
         "has_nanoe": 1 if series in NANOE_SERIES else 0,
         "converti_type": converti,
