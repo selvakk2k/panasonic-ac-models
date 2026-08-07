@@ -13,15 +13,22 @@ if not os.path.exists(DEFAULT_JSON_PATH):
 
 
 def normalize_code(raw_code: str) -> str:
-    """Normalizes input model strings (e.g. 'cs-cu-su18aky3w', 'cs/cu-su18aky3w' -> 'CS-SU18AKY3W')."""
+    """Normalizes input model strings across Split (CS-), Window (CW-), and Cassette (S-) formats."""
     cleaned = raw_code.strip().upper()
-    cleaned = re.sub(r'^(CS[-_/\s]?CU|CS/CU|CU)[-_\s]?', 'CS-', cleaned)
-    # CW- is a window AC prefix — pass through as-is, do not rewrite to CS-
-    if cleaned.startswith('CW-') or cleaned.startswith('CW '):
-        return cleaned
-    if not cleaned.startswith('CS-') and not cleaned.startswith('S-'):
-        cleaned = f"CS-{cleaned}"
-    return cleaned
+    
+    # Window AC series (LN, XN, CW)
+    if re.search(r'(?:CW|LN|XN)', cleaned):
+        body = re.sub(r'^(CS[-_/\s]?CU|CS/CU|CS|CU|CW)[-_\s]?', '', cleaned)
+        return f'CW-{body}'
+        
+    # Commercial Cassette / Ductable series (S-18PU..., S-24PD...)
+    if cleaned.startswith('S-') or re.search(r'\d{2}P[UD]', cleaned):
+        body = re.sub(r'^(CS[-_/\s]?CU|CS/CU|CS|CU|S)[-_\s]?', '', cleaned)
+        return f'S-{body}'
+
+    # Standard Split AC series (CS-)
+    body = re.sub(r'^(CS[-_/\s]?CU|CS/CU|CS|CU)[-_\s]?', '', cleaned)
+    return f'CS-{body}'
 
 
 class ACModelLookup:
@@ -47,6 +54,9 @@ class ACModelLookup:
         if norm in self._index:
             result = dict(self._index[norm])
             result["resolved_via"] = "database"
+            # Suffix-level override: Titanium 'T' variants in SU series are non-Wi-Fi IR models
+            if result.get("series") == "SU" and re.search(r'T[A-Z0-9-]*$', norm):
+                result["has_wifi"] = 0
             return result
 
         # 2. Dynamic Fallback

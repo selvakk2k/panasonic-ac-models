@@ -6,7 +6,11 @@
     "total_wifi_families": 116,
     "updated_at": "2026-08-06",
     "family_count": 110,
-    "model_count": 383
+    "model_count": 383,
+    "total_families": 144,
+    "total_models": 486,
+    "wifi_families": 121,
+    "non_wifi_families": 23
   },
   "families": [
     {
@@ -3328,6 +3332,925 @@
       ],
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
+        "Split"
+      ]
+    },
+    {
+      "family_key": "RU-09-A",
+      "series": "RU",
+      "generation": "?",
+      "capacity_class": "0.75T",
+      "speed_type": "variable",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-RU9AKY",
+        "CS-RU9AKYD",
+        "CS-RU9AKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "RU-18-A",
+      "series": "RU",
+      "generation": "A",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 6,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-RU18AKY",
+        "CS-RU18AKYD",
+        "CS-RU18AKYF",
+        "CS-RU18AKY-1",
+        "CS-RU18AKY-2",
+        "CS-RU18AKYF-2"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "RU-12-A",
+      "series": "RU",
+      "generation": "A",
+      "capacity_class": "1T",
+      "speed_type": "variable",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-RU12AKY",
+        "CS-RU12AKYD",
+        "CS-RU12AKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "RU-18-B",
+      "series": "RU",
+      "generation": "B",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 4,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-RU18BKY",
+        "CS-RU18BKYD",
+        "CS-RU18BKYF",
+        "CS-RU18BKY-1"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "RU-17-B",
+      "series": "RU",
+      "generation": "B",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 1,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-RU17BKY"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "RU-12-B",
+      "series": "RU",
+      "generation": "B",
+      "capacity_class": "1T",
+      "speed_type": "variable",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-RU12BKY",
+        "CS-RU12BKYD",
+        "CS-RU12BKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "PD-18-1",
+      "series": "PD",
+      "generation": "?",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 2,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "S-18PD1RY",
+        "S-18PD9RYM"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "PD-24-1",
+      "series": "PD",
+      "generation": "?",
+      "capacity_class": "2T",
+      "speed_type": "variable",
+      "model_count": 4,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 1,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "S-24PBB8H5YB",
+        "S-24PD1RY",
+        "S-24PD9RYM",
+        "S-24PB9ZYM"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-18-A",
+      "series": "KN",
+      "generation": "A",
+      "capacity_class": "1.5T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN18AKY",
+        "CS-KN18AKYD",
+        "CS-KN18AKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-12-A",
+      "series": "KN",
+      "generation": "A",
+      "capacity_class": "1T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN12AKY",
+        "CS-KN12AKYD",
+        "CS-KN12AKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-24-A",
+      "series": "KN",
+      "generation": "A",
+      "capacity_class": "2T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN24AKY",
+        "CS-KN24AKYD",
+        "CS-KN24AKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-18-B",
+      "series": "KN",
+      "generation": "B",
+      "capacity_class": "1.5T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN18BKY",
+        "CS-KN18BKYD",
+        "CS-KN18BKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-12-B",
+      "series": "KN",
+      "generation": "B",
+      "capacity_class": "1T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN12BKY",
+        "CS-KN12BKYD",
+        "CS-KN12BKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-24-B",
+      "series": "KN",
+      "generation": "B",
+      "capacity_class": "2T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN24BKY",
+        "CS-KN24BKYD",
+        "CS-KN24BKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-18-C",
+      "series": "KN",
+      "generation": "C",
+      "capacity_class": "1.5T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN18CKY",
+        "CS-KN18CKYD",
+        "CS-KN18CKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-12-C",
+      "series": "KN",
+      "generation": "C",
+      "capacity_class": "1T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN12CKY",
+        "CS-KN12CKYD",
+        "CS-KN12CKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-24-C",
+      "series": "KN",
+      "generation": "C",
+      "capacity_class": "2T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN24CKY",
+        "CS-KN24CKYD",
+        "CS-KN24CKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-18-C3X",
+      "series": "KN",
+      "generation": "C3X",
+      "capacity_class": "1.5T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN18CKY3X",
+        "CS-KN18CKY3XD",
+        "CS-KN18CKY3XF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KN-12-C3X",
+      "series": "KN",
+      "generation": "C3X",
+      "capacity_class": "1T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KN12CKY3X",
+        "CS-KN12CKY3XD",
+        "CS-KN12CKY3XF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KU-18-A",
+      "series": "KU",
+      "generation": "A",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 2,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KU18AKY",
+        "CS-KU18AKYD"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KU-12-A",
+      "series": "KU",
+      "generation": "A",
+      "capacity_class": "1T",
+      "speed_type": "variable",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KU12AKY",
+        "CS-KU12AKYD",
+        "CS-KU12AKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KU-24-A",
+      "series": "KU",
+      "generation": "A",
+      "capacity_class": "2T",
+      "speed_type": "variable",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KU24AKY",
+        "CS-KU24AKYD",
+        "CS-KU24AKYF"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "KU-12-Z",
+      "series": "KU",
+      "generation": "Z",
+      "capacity_class": "1T",
+      "speed_type": "variable",
+      "model_count": 4,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CS-KU12ZKY",
+        "CS-KU12ZKYD",
+        "CS-KU12ZKYF",
+        "CS-KU12ZKYF1"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "LN-18-A",
+      "series": "LN",
+      "generation": "A",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CW-LN183AG",
+        "CW-LN183AM",
+        "CW-LN183AR"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "LN-18-B",
+      "series": "LN",
+      "generation": "B",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "7-in-1",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CW-LN183BG",
+        "CW-LN183BM",
+        "CW-LN183BR"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "LN-18-C",
+      "series": "LN",
+      "generation": "C",
+      "capacity_class": "1.5T",
+      "speed_type": "fixed",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CW-LN183CG",
+        "CW-LN183CM",
+        "CW-LN183CR"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "LU-18-C",
+      "series": "LU",
+      "generation": "C",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CW-LU183CG",
+        "CW-LU183CM",
+        "CW-LU183CR"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "PU-18-5",
+      "series": "PU",
+      "generation": "5",
+      "capacity_class": "1.5T",
+      "speed_type": "fixed",
+      "model_count": 1,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "S-18PUB5H59B"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "PU-24-5",
+      "series": "PU",
+      "generation": "5",
+      "capacity_class": "2T",
+      "speed_type": "fixed",
+      "model_count": 1,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "S-24PUB5H59B"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "PU-18-R",
+      "series": "PU",
+      "generation": "?",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 1,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "S-18PU8RY"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "PU-24-R",
+      "series": "PU",
+      "generation": "?",
+      "capacity_class": "2T",
+      "speed_type": "fixed",
+      "model_count": 2,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "S-24PU8NY",
+        "S-24PU8RY"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "XN-18-A",
+      "series": "XN",
+      "generation": "A",
+      "capacity_class": "1.5T",
+      "speed_type": "fixed",
+      "model_count": 6,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CW-XN184AG",
+        "CW-XN184AM",
+        "CW-XN184AR",
+        "CW-XN185AG",
+        "CW-XN185AM",
+        "CW-XN185AR"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "XN-18-B",
+      "series": "XN",
+      "generation": "B",
+      "capacity_class": "1.5T",
+      "speed_type": "fixed",
+      "model_count": 6,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 0,
+      "has_heat_mode": 0,
+      "has_nanoe": 0,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CW-XN184BG",
+        "CW-XN184BM",
+        "CW-XN184BR",
+        "CW-XN185BGT",
+        "CW-XN185BMT",
+        "CW-XN185BRT"
+      ],
+      "ac_types": [
+        "Split"
+      ]
+    },
+    {
+      "family_key": "XU-18-C",
+      "series": "XU",
+      "generation": "C",
+      "capacity_class": "1.5T",
+      "speed_type": "variable",
+      "model_count": 3,
+      "iseer_min": null,
+      "iseer_max": null,
+      "star_rating_min": null,
+      "star_rating_max": null,
+      "has_wifi": 1,
+      "has_heat_mode": 0,
+      "has_nanoe": 1,
+      "converti_type": "none",
+      "variants": [
+        "base"
+      ],
+      "indoor_units": [
+        "CW-XU185CGT",
+        "CW-XU185CMT",
+        "CW-XU185CRT"
+      ],
+      "ac_types": [
         "Split"
       ]
     }

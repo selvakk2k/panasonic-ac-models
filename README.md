@@ -77,7 +77,7 @@ if converti == "8-in-1":
     converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_60", "cv_50", "cv_40"]
 elif converti == "7-in-1":
     converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_55", "cv_40"]
-else:  # "none" -> Pre-2023 auto-convertible, fixed-speed, or IR-only: hide converti presets
+else:  # "none" -> Pre-2023 auto-convertible or fixed-speed (IR-only just means no Wi-Fi, IR models can still have converti modes): hide converti presets
     converti_presets = []
 ```
 
@@ -142,7 +142,7 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
 | **Nanoe-X (Commercial)** | Commercial heat pump cassettes | PU Gen 6/7/8, PB commercial tower |
 | **Converti 8-in-1** | 2026+ generation models | NU/SU/WU/QU (Gen ≥ B) and EZ/HU/EU/AU (Gen ≥ C) |
 | **Converti 7-in-1** | 2023–2025 generation models | All other 2023–2025 inverter splits |
-| **No Converti** | Pre-2023 or fixed-speed / commercial | Gen W, X (sensor auto-scaling), all IR-only models, all commercial cassettes |
+| **No Converti** | Pre-2023 or fixed-speed / commercial | Gen W, X (sensor auto-scaling), fixed-speed models (IR-only just means no Wi-Fi), all commercial cassettes |
 
 ---
 

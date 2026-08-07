@@ -14,3 +14,10 @@ build/
 .DS_Store
 .vscode/
 .idea/
+
+# PDF catalogs & scratch reports
+*.pdf
+panasonic_report.*
+panasonic_wifi_models.json
+parse_models.py
+
