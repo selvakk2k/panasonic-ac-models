@@ -138,8 +138,8 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
 
 | Feature | Applies To | Series / Condition |
 |---|---|---|
-| **Wi-Fi / MirAIe Smart** | Inverter splits & smart window ACs | NU, SU (W/WD/WF variants), EU, AU, HU, XU, EZ, KZ, WU, QU, YU, RU-C, TU, VU, ZU, LU, KU, LN (inverter), XU (window), PU (commercial smart), PB (commercial tower) |
-| **IR Remote Only** | Fixed-speed & non-smart models | KN (fixed-speed splits), XN (fixed-speed window ACs), LN-C (fixed-speed window ACs), RU-A/B, SU titanium panel variants (T/TD/TF/TK suffix), PD, PU-5 (older commercial) |
+| **Wi-Fi / MirAIe Smart** | Inverter splits & smart window ACs | NU, SU (W/WD/WF variants), EU, AU, HU, XU, EZ, KZ, WU, QU, YU, TU, VU, ZU, LU, KU, LN (inverter), XU (window), PU (commercial smart), PB (commercial tower) |
+| **IR Remote Only** | Fixed-speed & non-smart models | KN (fixed-speed splits), XN (fixed-speed window ACs), LN-C (fixed-speed window ACs), RU (all generations: RU-A/B/C), SU titanium panel variants (T/TD/TF/TK suffix), PD, PU-5 (older commercial) |
 | **Heat Mode** | Dual heat pump series | EZ and KZ series only |
 | **Nanoe Ionizer** | Air purification premium series | HU and XU series only |
 | **Nanoe-X (Commercial)** | Commercial heat pump cassettes | PU Gen 6/7/8, PB commercial tower |
