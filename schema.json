@@ -48,7 +48,7 @@
           "variants": { "type": "array", "items": { "type": "string" } },
           "indoor_units": {
             "type": "array",
-            "items": { "type": "string", "pattern": "^(CS|S)-[A-Z0-9-]+$" }
+            "items": { "type": "string", "pattern": "^(CS|CW|S)-[A-Z0-9-]+$" }
           },
           "ac_types": { "type": "array", "items": { "type": "string" } }
         }
