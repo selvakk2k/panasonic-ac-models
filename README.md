@@ -1,6 +1,6 @@
 # panasonic-ac-models
 
-A model capability database and lookup engine for Panasonic Smart Air Conditioners (Indian Market / MirAIe platform). Designed for Home Assistant custom integrations, companion libraries, and custom dashboard cards to dynamically determine supported AC features (HVAC modes, Nanoe ionizer, Converti presets).
+A model capability database and lookup engine for Panasonic Air Conditioners (Indian Market). Covers both **Wi-Fi / MirAIe smart models** and **IR remote-only models**, providing hardware feature flags for HVAC integrations, Home Assistant custom integrations, companion libraries, and dashboard cards.
 
 ---
 
@@ -21,19 +21,30 @@ from panasonic_ac_models import ACModelLookup
 
 lookup = ACModelLookup()
 
-# Query capability dictionary for any indoor SKU (handles 'CS/CU-', casing, and spaces automatically)
-caps = lookup.get_capabilities("CS/CU-EZ18BKYD")
+# Query capability dictionary for any indoor SKU.
+# Handles CS-CU-, CS/CU-, CU-, lowercase, and whitespace variants automatically.
+caps = lookup.get_capabilities("CS-CU-EU18CKY5XFM")
 
 print(f"Model Series: {caps['series']} (Gen {caps['generation']})")
 print(f"Family Key:   {caps['family_key']}")
 
 # -------------------------------------------------------------
-# 1. Gate Wi-Fi / Smart Capability
+# 1. Filter by Integration Type (Wi-Fi Cloud vs IR Remote)
 # -------------------------------------------------------------
 if caps["has_wifi"] == 1:
+    # Wi-Fi smart AC: set up MirAIe cloud/MQTT entities
     print("-> Wi-Fi Smart AC: Expose MirAIe cloud & MQTT entities.")
 else:
-    print("-> Non-Smart unit: Local IR remote control only.")
+    # IR-only AC: set up IR blaster command entities
+    print("-> IR Remote AC: Route to IR blaster command pipeline.")
+
+# Example: Skip non-Wi-Fi models in a MirAIe-only integration
+if caps["has_wifi"] == 0:
+    raise ValueError(f"Model {caps['family_key']} is IR-only and not supported by this integration.")
+
+# Example: Skip Wi-Fi models in an IR-only integration
+if caps["has_wifi"] == 1:
+    raise ValueError(f"Model {caps['family_key']} is Wi-Fi smart — use the MirAIe integration instead.")
 
 # -------------------------------------------------------------
 # 2. Gate HVAC Modes (Common: cool, dry, fan_only, auto, off; EZ/KZ add heat)
@@ -43,7 +54,7 @@ common_hvac_modes = ["cool", "dry", "fan_only", "auto", "off"]
 if caps["has_heat_mode"] == 1:
     hvac_modes = common_hvac_modes + ["heat"]  # EZ & KZ series dual heat pump
 else:
-    hvac_modes = common_hvac_modes           # Cooling-only unit
+    hvac_modes = common_hvac_modes             # Cooling-only unit
 
 # -------------------------------------------------------------
 # 3. Gate Nanoe Air Purification Switch
@@ -62,7 +73,7 @@ if converti == "8-in-1":
     converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_60", "cv_50", "cv_40"]
 elif converti == "7-in-1":
     converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_55", "cv_40"]
-else:  # "none" -> Pre-2023 sensor auto-convertible or non-smart model: Hide converti presets
+else:  # "none" -> Pre-2023 auto-convertible, fixed-speed, or IR-only: hide converti presets
     converti_presets = []
 ```
 
@@ -80,14 +91,37 @@ https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json
 fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json")
   .then(res => res.json())
   .then(data => {
-    const rawModel = "CS/CU-NU18AKY4WXD";
-    const cleanModel = rawModel.replace(/^(CS\/CU|CU)[-_\s]?/i, 'CS-').trim().toUpperCase();
-    
+    const rawModel = "CS-CU-NU18AKY4WXD";
+
+    // Normalize prefix variants (CS-CU-, CS/CU-, CU-, lowercase)
+    const cleanModel = rawModel
+      .trim()
+      .toUpperCase()
+      .replace(/^(CS[-_\/\s]?CU|CS\/CU|CS|CU)[-_\s]?/, "CS-");
+
     const family = data.families.find(f => f.indoor_units.includes(cleanModel));
-    console.log("Wi-Fi Smart:", family?.has_wifi === 1);
-    console.log("Heat Mode:", family?.has_heat_mode === 1);
-    console.log("Nanoe Ionizer:", family?.has_nanoe === 1);
-    console.log("Converti Mode:", family?.converti_type);
+
+    if (!family) {
+      console.warn("Model not found in database.");
+      return;
+    }
+
+    // Filter by integration type
+    const isWifi = family.has_wifi === 1;
+    console.log("Integration type:", isWifi ? "Wi-Fi / MirAIe Cloud" : "IR Remote Blaster");
+
+    // Feature flags
+    console.log("Heat Mode:", family.has_heat_mode === 1);
+    console.log("Nanoe Ionizer:", family.has_nanoe === 1);
+    console.log("Converti Mode:", family.converti_type);
+
+    // Example: get all families for a Wi-Fi-only integration
+    const wifiOnlyFamilies = data.families.filter(f => f.has_wifi === 1);
+    console.log("Total Wi-Fi smart families:", wifiOnlyFamilies.length);
+
+    // Example: get all families for an IR-only integration
+    const irOnlyFamilies = data.families.filter(f => f.has_wifi === 0);
+    console.log("Total IR remote families:", irOnlyFamilies.length);
   });
 ```
 
@@ -95,22 +129,25 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
 
 ## Feature Gating Rules
 
-| Feature | Condition | Series / Generations |
+| Feature | Applies To | Series / Condition |
 |---|---|---|
-| Wi-Fi / MirAIe | All Inverter Splits | NU, SU, EU, AU, HU, XU, EZ, KZ, WU, QU, YU, RU, TU, VU, ZU, LU, S-##PUY |
-| Non-Smart | Fixed Speed / Window | KN, KU, CW-, PUB, PD |
-| Heat Mode | Dual Heat Pump | EZ, KZ only |
-| Nanoe Ionizer | Purification Models | HU, XU only |
-| Converti 8-in-1 | 2026+ Models | NU/SU (Gen ≥ B) & EZ/HU/EU (Gen ≥ C) |
-| Converti 7-in-1 | 2023–2025 Models | All other 2023–2025 inverter splits |
-| Auto-Convertible (none) | Pre-2023 Models | 2020–2022 models (Gen W, X - sensor auto-scaling, no manual percentage buttons) |
+| **Wi-Fi / MirAIe Smart** | Inverter splits & smart window ACs | NU, SU (W/WD/WF variants), EU, AU, HU, XU, EZ, KZ, WU, QU, YU, RU-C, TU, VU, ZU, LU, KU, LN (inverter), XU (window), PU (commercial smart), PB (commercial tower) |
+| **IR Remote Only** | Fixed-speed & non-smart models | KN (fixed-speed splits), XN (fixed-speed window ACs), LN-C (fixed-speed window ACs), RU-A/B, SU titanium panel variants (T/TD/TF/TK suffix), PD, PU-5 (older commercial) |
+| **Heat Mode** | Dual heat pump series | EZ and KZ series only |
+| **Nanoe Ionizer** | Air purification premium series | HU and XU series only |
+| **Nanoe-X (Commercial)** | Commercial heat pump cassettes | PU Gen 6/7/8, PB commercial tower |
+| **Converti 8-in-1** | 2026+ generation models | NU/SU/WU/QU (Gen ≥ B) and EZ/HU/EU/AU (Gen ≥ C) |
+| **Converti 7-in-1** | 2023–2025 generation models | All other 2023–2025 inverter splits |
+| **No Converti** | Pre-2023 or fixed-speed / commercial | Gen W, X (sensor auto-scaling), all IR-only models, all commercial cassettes |
 
 ---
 
 ## Database Summary
 
-- **Models Tracked**: 383 verified Wi-Fi models across 110 hardware families.
-- **Data Sources**: Bureau of Energy Efficiency (BEE) certified labels, Panasonic India catalogs, empirical MirAIe telemetry.
+- **Models Tracked**: 486 models across 144 hardware families.
+  - **394 Wi-Fi / MirAIe Smart models** across 121 families — for cloud/MQTT integrations.
+  - **92 IR Remote-Only models** across 23 families — for IR blaster integrations.
+- **Data Sources**: Bureau of Energy Efficiency (BEE) certified labels, Panasonic India catalogs, empirical MirAIe telemetry, and live retail verification.
 
 ---
 
@@ -120,7 +157,8 @@ Pull requests are welcome! To add or correct a model:
 
 1. Edit `models.json`.
 2. Add the indoor SKU to the appropriate `indoor_units` array under `families`.
-3. Submit a PR. Continuous Integration (`check-jsonschema`) will validate changes against `schema.json`.
+3. Set `has_wifi: 0` for IR-only models, `has_wifi: 1` for Wi-Fi smart models.
+4. Submit a PR. Continuous Integration (`check-jsonschema`) will validate changes against `schema.json`.
 
 ---
 
