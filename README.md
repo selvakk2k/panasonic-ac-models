@@ -29,22 +29,26 @@ print(f"Model Series: {caps['series']} (Gen {caps['generation']})")
 print(f"Family Key:   {caps['family_key']}")
 
 # -------------------------------------------------------------
-# 1. Filter by Integration Type (Wi-Fi Cloud vs IR Remote)
+# 1. Route by Integration Type
 # -------------------------------------------------------------
-if caps["has_wifi"] == 1:
-    # Wi-Fi smart AC: set up MirAIe cloud/MQTT entities
-    print("-> Wi-Fi Smart AC: Expose MirAIe cloud & MQTT entities.")
-else:
-    # IR-only AC: set up IR blaster command entities
-    print("-> IR Remote AC: Route to IR blaster command pipeline.")
 
-# Example: Skip non-Wi-Fi models in a MirAIe-only integration
+# --- Option A: MirAIe-only integration (skip IR models) ---
 if caps["has_wifi"] == 0:
-    raise ValueError(f"Model {caps['family_key']} is IR-only and not supported by this integration.")
+    raise ValueError(f"Model {caps['family_key']} is IR-only, not supported by MirAIe.")
+setup_miraie_entities(caps)  # proceed with cloud/MQTT setup
 
-# Example: Skip Wi-Fi models in an IR-only integration
+# --- Option B: IR-only integration (skip Wi-Fi models) ---
 if caps["has_wifi"] == 1:
     raise ValueError(f"Model {caps['family_key']} is Wi-Fi smart — use the MirAIe integration instead.")
+setup_ir_entities(caps)  # proceed with IR blaster command setup
+
+# --- Option C: Hybrid integration (support both) ---
+if caps["has_wifi"] == 1:
+    print("-> Wi-Fi Smart AC: Expose MirAIe cloud & MQTT entities.")
+    setup_miraie_entities(caps)
+else:
+    print("-> IR Remote AC: Route to IR blaster command pipeline.")
+    setup_ir_entities(caps)
 
 # -------------------------------------------------------------
 # 2. Gate HVAC Modes (Common: cool, dry, fan_only, auto, off; EZ/KZ add heat)
