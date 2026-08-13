@@ -54,8 +54,8 @@ class ACModelLookup:
         if norm in self._index:
             result = dict(self._index[norm])
             result["resolved_via"] = "database"
-            # Suffix-level override: Titanium 'T' variants in SU series are non-Wi-Fi IR models
-            if result.get("series") == "SU" and re.search(r'T[A-Z0-9-]*$', norm):
+            # Suffix-level override: -1 and -2 variants (e.g. CS-RU18CKY-1), plus SU-T series are non-Wi-Fi IR models
+            if re.search(r'-(?:1|2)$', norm) or (result.get("series") == "SU" and re.search(r'T[A-Z0-9-]*$', norm)):
                 result["has_wifi"] = 0
             return result
 

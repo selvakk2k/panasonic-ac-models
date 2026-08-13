@@ -25,7 +25,7 @@ CAPACITY_MAP = {
 
 HEAT_MODE_SERIES = {"EZ", "KZ"}
 NANOE_SERIES = {"HU", "XU"}
-NON_WIFI_SERIES = {"KN", "KU", "CW", "LN", "XN", "PD", "RU"}
+NON_WIFI_SERIES = {"KN", "KU", "CW", "LN", "XN", "PD"}
 
 def decode_model_string(model_code: str) -> Optional[Dict[str, Any]]:
     """Parses capability flags from a Panasonic AC model code string via deterministic rules."""
@@ -65,7 +65,15 @@ def decode_model_string(model_code: str) -> Optional[Dict[str, Any]]:
     else:
         converti = "none"
 
-    is_non_wifi = (series in NON_WIFI_SERIES) or (series == "SU" and suffix.startswith("T"))
+    is_non_wifi = (series in NON_WIFI_SERIES) or (series == "SU" and suffix.startswith("T")) or bool(re.search(r'-(?:1|2)$', cleaned))
+
+    # Swing Type (2-way vs 4-way) Logic
+    if series in {"KN", "LN", "XN", "PD", "CW"}:
+        swing_type = "2-way"
+    elif series in {"SU", "RU"}:
+        swing_type = "2-way" if data["capacity"] in {"09", "11", "12", "17", "18"} else "4-way"
+    else:
+        swing_type = "4-way"
 
     return {
         "family_key": f"{series}-{data['capacity']}-{gen}",
@@ -77,5 +85,7 @@ def decode_model_string(model_code: str) -> Optional[Dict[str, Any]]:
         "has_heat_mode": 1 if series in HEAT_MODE_SERIES else 0,
         "has_nanoe": 1 if series in NANOE_SERIES else 0,
         "converti_type": converti,
+        "swing_type": swing_type,
         "resolved_via": "regex_decoder"
     }
+

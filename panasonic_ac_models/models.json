@@ -45,7 +45,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "AU-12-A",
@@ -75,7 +76,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "AU-24-A",
@@ -105,7 +107,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "AU-18-B",
@@ -135,7 +138,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "AU-12-B",
@@ -166,7 +170,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-18-A3",
@@ -202,7 +207,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-12-A3",
@@ -232,7 +238,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-24-A3",
@@ -262,7 +269,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-18-A5",
@@ -298,7 +306,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-12-A5",
@@ -330,7 +339,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-24-A5",
@@ -362,7 +372,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-18-B3",
@@ -400,7 +411,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-12-B3",
@@ -431,7 +443,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-24-B3",
@@ -462,7 +475,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-18-B5",
@@ -494,7 +508,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-12-B5",
@@ -525,7 +540,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-24-B5",
@@ -556,7 +572,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-18-C3",
@@ -591,7 +608,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-12-C3",
@@ -622,7 +640,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-24-C3",
@@ -653,7 +672,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-18-C4",
@@ -684,7 +704,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-12-C4",
@@ -715,7 +736,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-24-C4",
@@ -740,7 +762,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-18-C5",
@@ -774,7 +797,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-12-C5",
@@ -805,7 +829,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EU-24-C5",
@@ -836,7 +861,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EZ-18-B",
@@ -872,7 +898,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EZ-12-B",
@@ -902,7 +929,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EZ-24-B",
@@ -933,7 +961,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EZ-18-C",
@@ -969,7 +998,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EZ-12-C",
@@ -999,7 +1029,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "EZ-24-C",
@@ -1030,7 +1061,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "HU-18-A",
@@ -1060,7 +1092,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "HU-12-A",
@@ -1090,7 +1123,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "HU-18-B",
@@ -1121,7 +1155,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "HU-12-B",
@@ -1152,7 +1187,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "HU-18-C5",
@@ -1183,7 +1219,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "HU-12-C5",
@@ -1214,7 +1251,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "KZ-18-A",
@@ -1247,7 +1285,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "KZ-24-A",
@@ -1277,7 +1316,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "LU-18-A",
@@ -1307,7 +1347,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-18-A4",
@@ -1335,7 +1376,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-12-A4",
@@ -1365,7 +1407,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-24-A4",
@@ -1395,7 +1438,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-18-A5",
@@ -1425,7 +1469,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-12-A5",
@@ -1450,7 +1495,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-24-A5",
@@ -1480,7 +1526,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-18-B4",
@@ -1510,7 +1557,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-12-B4",
@@ -1540,7 +1588,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-24-B4",
@@ -1570,7 +1619,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-18-B5",
@@ -1601,7 +1651,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-12-B5",
@@ -1631,7 +1682,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-24-B5",
@@ -1661,7 +1713,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-18-Y4",
@@ -1693,7 +1746,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-18-Y5",
@@ -1722,7 +1776,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-12-Y5",
@@ -1752,7 +1807,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-18-Z4",
@@ -1782,7 +1838,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-12-Z4",
@@ -1812,7 +1869,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-24-Z4",
@@ -1842,7 +1900,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-18-Z5",
@@ -1878,7 +1937,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "NU-12-Z5",
@@ -1908,7 +1968,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-18-6",
@@ -1933,7 +1994,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-24-6",
@@ -1958,7 +2020,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-18-7",
@@ -1983,7 +2046,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-24-7",
@@ -2008,7 +2072,8 @@
       ],
       "ac_types": [
         "Room Air Conditioner (Variable Speed)"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-18-8",
@@ -2033,7 +2098,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-24-8",
@@ -2058,7 +2124,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "QU-26-A",
@@ -2088,7 +2155,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "QU-26-B",
@@ -2119,7 +2187,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "QU-30-C",
@@ -2150,7 +2219,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "QU-26-Z",
@@ -2180,7 +2250,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "RU-18-C",
@@ -2193,10 +2264,10 @@
       "iseer_max": 4.5,
       "star_rating_min": 4,
       "star_rating_max": 4,
-      "has_wifi": 0,
+      "has_wifi": 1,
       "has_heat_mode": 0,
       "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "converti_type": "8-in-1",
       "variants": [
         "YD",
         "YF",
@@ -2211,7 +2282,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "RU-12-C",
@@ -2224,10 +2296,10 @@
       "iseer_max": 4.5,
       "star_rating_min": 4,
       "star_rating_max": 4,
-      "has_wifi": 0,
+      "has_wifi": 1,
       "has_heat_mode": 0,
       "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "converti_type": "8-in-1",
       "variants": [
         "YD",
         "YF",
@@ -2241,7 +2313,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "RU-24-C",
@@ -2254,10 +2327,10 @@
       "iseer_max": 4.5,
       "star_rating_min": 4,
       "star_rating_max": 4,
-      "has_wifi": 0,
+      "has_wifi": 1,
       "has_heat_mode": 0,
       "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "converti_type": "8-in-1",
       "variants": [
         "YD",
         "YF",
@@ -2271,7 +2344,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "SU-18-A3",
@@ -2314,7 +2388,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-12-A3",
@@ -2349,7 +2424,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-24-A3",
@@ -2379,7 +2455,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "SU-17-A3",
@@ -2404,7 +2481,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-11-A3",
@@ -2434,7 +2512,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-18-B3",
@@ -2470,7 +2549,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-12-B3",
@@ -2505,7 +2585,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-24-B3",
@@ -2535,7 +2616,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "SU-18-Y",
@@ -2563,7 +2645,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-12-Y",
@@ -2593,7 +2676,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-24-Y",
@@ -2623,7 +2707,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "SU-18-Z",
@@ -2657,7 +2742,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-12-Z",
@@ -2687,7 +2773,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "SU-24-Z",
@@ -2717,7 +2804,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "TU-18-A",
@@ -2744,7 +2832,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "TU-12-A",
@@ -2774,7 +2863,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "TU-18-Z",
@@ -2803,7 +2893,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "TU-18-Z5",
@@ -2828,7 +2919,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "VU-18-A",
@@ -2858,7 +2950,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "VU-18-B",
@@ -2889,7 +2982,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "WU-18-B",
@@ -2918,7 +3012,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "WU-12-B",
@@ -2949,7 +3044,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "WU-24-B",
@@ -2980,7 +3076,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "WU-18-C4",
@@ -3011,7 +3108,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "XU-18-A",
@@ -3041,7 +3139,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "XU-12-A",
@@ -3071,7 +3170,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "YU-12-A",
@@ -3096,7 +3196,8 @@
       ],
       "ac_types": [
         "Room Air Conditioner (Variable Speed)"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "YU-24-A",
@@ -3121,7 +3222,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "YU-18-B",
@@ -3149,7 +3251,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "YU-12-B",
@@ -3174,7 +3277,8 @@
       ],
       "ac_types": [
         "Room Air Conditioner (Variable Speed)"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "YU-24-B",
@@ -3199,7 +3303,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "YU-18-C",
@@ -3227,7 +3332,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "YU-12-C",
@@ -3252,7 +3358,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "YU-24-C",
@@ -3277,7 +3384,8 @@
       ],
       "ac_types": [
         "Room Air Conditioner (Variable Speed)"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "YU-12-Z",
@@ -3302,7 +3410,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "ZU-24-C5",
@@ -3333,7 +3442,8 @@
       "ac_types": [
         "Room Air Conditioner (Variable Speed)",
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "RU-09-A",
@@ -3346,7 +3456,7 @@
       "iseer_max": null,
       "star_rating_min": null,
       "star_rating_max": null,
-      "has_wifi": 0,
+      "has_wifi": 1,
       "has_heat_mode": 0,
       "has_nanoe": 0,
       "converti_type": "7-in-1",
@@ -3360,7 +3470,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "RU-18-A",
@@ -3373,7 +3484,7 @@
       "iseer_max": null,
       "star_rating_min": null,
       "star_rating_max": null,
-      "has_wifi": 0,
+      "has_wifi": 1,
       "has_heat_mode": 0,
       "has_nanoe": 0,
       "converti_type": "7-in-1",
@@ -3390,7 +3501,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "RU-12-A",
@@ -3403,7 +3515,7 @@
       "iseer_max": null,
       "star_rating_min": null,
       "star_rating_max": null,
-      "has_wifi": 0,
+      "has_wifi": 1,
       "has_heat_mode": 0,
       "has_nanoe": 0,
       "converti_type": "7-in-1",
@@ -3417,7 +3529,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "RU-18-B",
@@ -3430,10 +3543,10 @@
       "iseer_max": null,
       "star_rating_min": null,
       "star_rating_max": null,
-      "has_wifi": 0,
+      "has_wifi": 1,
       "has_heat_mode": 0,
       "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "converti_type": "8-in-1",
       "variants": [
         "base"
       ],
@@ -3445,7 +3558,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "RU-17-B",
@@ -3458,10 +3572,10 @@
       "iseer_max": null,
       "star_rating_min": null,
       "star_rating_max": null,
-      "has_wifi": 0,
+      "has_wifi": 1,
       "has_heat_mode": 0,
       "has_nanoe": 0,
-      "converti_type": "7-in-1",
+      "converti_type": "8-in-1",
       "variants": [
         "base"
       ],
@@ -3470,7 +3584,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "RU-12-B",
@@ -3497,7 +3612,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "PD-18-1",
@@ -3523,7 +3639,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "PD-24-1",
@@ -3551,7 +3668,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-18-A",
@@ -3578,7 +3696,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-12-A",
@@ -3605,7 +3724,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-24-A",
@@ -3632,7 +3752,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-18-B",
@@ -3659,7 +3780,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-12-B",
@@ -3686,7 +3808,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-24-B",
@@ -3713,7 +3836,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-18-C",
@@ -3740,7 +3864,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-12-C",
@@ -3767,7 +3892,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-24-C",
@@ -3794,7 +3920,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-18-C3X",
@@ -3821,7 +3948,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KN-12-C3X",
@@ -3848,7 +3976,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "KU-18-A",
@@ -3874,7 +4003,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "KU-12-A",
@@ -3901,7 +4031,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "KU-24-A",
@@ -3928,7 +4059,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "KU-12-Z",
@@ -3956,7 +4088,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "LN-18-A",
@@ -3983,7 +4116,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "LN-18-B",
@@ -4010,7 +4144,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "LN-18-C",
@@ -4037,7 +4172,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "LU-18-C",
@@ -4064,7 +4200,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-18-5",
@@ -4089,7 +4226,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-24-5",
@@ -4114,7 +4252,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-18-R",
@@ -4139,7 +4278,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "PU-24-R",
@@ -4165,7 +4305,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     },
     {
       "family_key": "XN-18-A",
@@ -4195,7 +4336,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "XN-18-B",
@@ -4225,7 +4367,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "2-way"
     },
     {
       "family_key": "XU-18-C",
@@ -4252,7 +4395,8 @@
       ],
       "ac_types": [
         "Split"
-      ]
+      ],
+      "swing_type": "4-way"
     }
   ]
 }
