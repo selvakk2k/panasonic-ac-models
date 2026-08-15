@@ -209,7 +209,7 @@ def generate_ir_code(
     if mode_key == "dry":
         fan_nibble = 0x3
     else:
-        fan_nibble_map = {"quiet": 0x2, "low": 0x3, "mid": 0x5, "medium": 0x5, "high": 0x7, "auto": 0xA}
+        fan_nibble_map = {"quiet": 0x2, "off": 0x2, "low": 0x3, "mid": 0x5, "medium": 0x5, "high": 0x7, "auto": 0xA}
         fan_nibble = fan_nibble_map.get(str(fan).lower(), 0x3)
 
     v_nibble_map = {"V0": 0xF, "V1": 0x1, "V2": 0x2, "V3": 0x3, "V4": 0x4, "V5": 0x5, "AUTO": 0xF}
