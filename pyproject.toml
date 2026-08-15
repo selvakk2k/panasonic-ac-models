@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "panasonic_ac_models"
-version = "1.1.4b2"
+version = "1.1.4"
 description = "Hardware database and feature gating lookup engine for Panasonic Smart ACs (Indian Market / MirAIe IoT)"
 readme = "README.md"
 authors = [
