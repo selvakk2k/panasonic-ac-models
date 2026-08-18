@@ -49,6 +49,32 @@ class TestPanasonicACModels(unittest.TestCase):
         self.assertIn("tuya_b64", ir)
         self.assertIn("pronto_hex", ir)
 
+    def test_ir_generation_all_fan_speeds(self):
+        # Hardware-verified fan modes against fancaptures.txt
+        # Quiet
+        quiet_ir = generate_ir_code(mode="cool", target_temp=26, fan="quiet", v_vane="V1", h_vane="H0", series="EU")
+        self.assertEqual(quiet_ir["ahea_hex"], "0x0220E004000000060220E00400393480A10D000EE0200089000038")
+
+        # Off alias (backward compatibility)
+        off_ir = generate_ir_code(mode="cool", target_temp=26, fan="off", v_vane="V1", h_vane="H0", series="EU")
+        self.assertEqual(off_ir["ahea_hex"], "0x0220E004000000060220E00400393480A10D000EE0200089000038")
+
+        # Low
+        low_ir = generate_ir_code(mode="cool", target_temp=26, fan="low", v_vane="V1", h_vane="H0", series="EU")
+        self.assertEqual(low_ir["ahea_hex"], "0x0220E004000000060220E00400393480310D000EE00000890000A8")
+
+        # Medium
+        med_ir = generate_ir_code(mode="cool", target_temp=26, fan="medium", v_vane="V1", h_vane="H0", series="EU")
+        self.assertEqual(med_ir["ahea_hex"], "0x0220E004000000060220E00400393480510D000EE00000890000C8")
+
+        # High
+        high_ir = generate_ir_code(mode="cool", target_temp=26, fan="high", v_vane="V1", h_vane="H0", series="EU")
+        self.assertEqual(high_ir["ahea_hex"], "0x0220E004000000060220E00400393480710D000EE00000890000E8")
+
+        # Auto
+        auto_ir = generate_ir_code(mode="cool", target_temp=26, fan="auto", v_vane="V1", h_vane="H0", series="EU")
+        self.assertEqual(auto_ir["ahea_hex"], "0x0220E004000000060220E00400393480A10D000EE0000089000018")
+
     def test_ir_generation_short_frames(self):
         nanoe_ir = generate_ir_code(mode="nanoe")
         self.assertGreater(len(nanoe_ir["raw"]), 100)
