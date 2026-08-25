@@ -94,5 +94,101 @@ class TestPanasonicACModels(unittest.TestCase):
         clean_ir = generate_ir_code(mode="clean")
         self.assertIn("CLEAN", clean_ir["description"])
 
+    def test_decode_ir_code_full_frame_roundtrip(self):
+        from panasonic_ac_models import decode_ir_code
+
+        # Cool 24°C, Low Fan, V1, H2
+        ir = generate_ir_code(mode="cool", target_temp=24, fan="low", v_vane="V1", h_vane="H2", series="EU")
+        decoded = decode_ir_code(ir["aeha_hex"])
+        self.assertIsNotNone(decoded)
+        self.assertEqual(decoded["packet_type"], "full_frame")
+        self.assertEqual(decoded["power"], "on")
+        self.assertEqual(decoded["mode"], "cool")
+        self.assertEqual(decoded["temperature"], 24)
+        self.assertEqual(decoded["fan_speed"], "low")
+        self.assertEqual(decoded["v_vane"], "V1")
+        self.assertEqual(decoded["h_vane"], "H2")
+        self.assertFalse(decoded["eco"])
+
+        # Eco Mode ON
+        eco_ir = generate_ir_code(mode="cool", target_temp=22, fan="auto", v_vane="V1", h_vane="H0", eco=True, series="EU")
+        decoded_eco = decode_ir_code(eco_ir["aeha_hex"])
+        self.assertIsNotNone(decoded_eco)
+        self.assertEqual(decoded_eco["mode"], "cool")
+        self.assertEqual(decoded_eco["temperature"], 26)
+        self.assertTrue(decoded_eco["eco"])
+
+        # Quiet Fan
+        quiet_ir = generate_ir_code(mode="cool", target_temp=26, fan="quiet", v_vane="V1", h_vane="H0", series="EU")
+        decoded_quiet = decode_ir_code(quiet_ir["aeha_hex"])
+        self.assertIsNotNone(decoded_quiet)
+        self.assertEqual(decoded_quiet["fan_speed"], "quiet")
+
+        # Off Mode
+        off_ir = generate_ir_code(mode="off", target_temp=24, fan="auto", v_vane="V1", h_vane="H0", series="EU")
+        decoded_off = decode_ir_code(off_ir["aeha_hex"])
+        self.assertIsNotNone(decoded_off)
+        self.assertEqual(decoded_off["power"], "off")
+        self.assertEqual(decoded_off["mode"], "off")
+
+    def test_decode_ir_code_short_frames(self):
+        from panasonic_ac_models import decode_ir_code
+
+        # Powerful
+        powerful_ir = generate_ir_code(mode="powerful")
+        dec_pow = decode_ir_code(powerful_ir["aeha_hex"])
+        self.assertIsNotNone(dec_pow)
+        self.assertEqual(dec_pow["packet_type"], "short_frame")
+        self.assertEqual(dec_pow["action"], "powerful")
+        self.assertTrue(dec_pow["powerful"])
+
+        # Display
+        display_ir = generate_ir_code(mode="display")
+        dec_disp = decode_ir_code(display_ir["aeha_hex"])
+        self.assertIsNotNone(dec_disp)
+        self.assertEqual(dec_disp["action"], "display")
+        self.assertTrue(dec_disp["display"])
+
+        # Clean
+        clean_ir = generate_ir_code(mode="clean")
+        dec_clean = decode_ir_code(clean_ir["aeha_hex"])
+        self.assertIsNotNone(dec_clean)
+        self.assertEqual(dec_clean["action"], "clean")
+        self.assertTrue(dec_clean["clean"])
+
+        # Converti 80%
+        c80_ir = generate_ir_code(mode="converti_80")
+        dec_c80 = decode_ir_code(c80_ir["aeha_hex"])
+        self.assertIsNotNone(dec_c80)
+        self.assertEqual(dec_c80["converti"], "cv_80")
+
+    def test_decode_ir_code_multiple_input_types(self):
+        from panasonic_ac_models import decode_ir_code
+
+        ir = generate_ir_code(mode="cool", target_temp=25, fan="medium", v_vane="V3", h_vane="H3", series="EU")
+
+        # 1. Raw Pulses
+        dec_raw = decode_ir_code(ir["raw"])
+        self.assertIsNotNone(dec_raw)
+        self.assertEqual(dec_raw["temperature"], 25)
+        self.assertEqual(dec_raw["fan_speed"], "medium")
+        self.assertEqual(dec_raw["v_vane"], "V3")
+        self.assertEqual(dec_raw["h_vane"], "H3")
+
+        # 2. Tasmota JSON String
+        dec_tasmota = decode_ir_code(ir["tasmota_json"])
+        self.assertIsNotNone(dec_tasmota)
+        self.assertEqual(dec_tasmota["temperature"], 25)
+
+        # 3. Dict input
+        dec_dict = decode_ir_code({"Protocol": "PANASONIC_AC", "Bits": 216, "Data": ir["aeha_hex"]})
+        self.assertIsNotNone(dec_dict)
+        self.assertEqual(dec_dict["temperature"], 25)
+
+        # 4. Invalid Checksum / Corrupted input
+        self.assertIsNone(decode_ir_code("0x0220E004000000060220E00400393480A10D000EE02000890000FF"))
+        self.assertIsNone(decode_ir_code("invalid_payload"))
+        self.assertIsNone(decode_ir_code([]))
+
 if __name__ == "__main__":
     unittest.main()
