@@ -3,19 +3,45 @@
 > [!NOTE]
 > **Regional Scope**: This database specifically tracks Panasonic Air Conditioner SKUs certified and sold in the **Indian Market** (MirAIe IoT platform & BEE rating taxonomy). International Panasonic models (e.g. European/Australian units on *Panasonic Comfort Cloud*) use different SKU naming conventions and cloud APIs.
 
-A model capability database and lookup engine for Panasonic Air Conditioners (Indian Market). Covers both **Wi-Fi / MirAIe smart models** and **IR remote-only models**, providing hardware feature flags for HVAC integrations, Home Assistant custom integrations, companion libraries, and dashboard cards.
+A comprehensive model capability database, lookup engine, and hardware-verified Infrared (IR) protocol generator for Panasonic Air Conditioners (Indian Market). Covers both **Wi-Fi / MirAIe smart models** and **IR remote-only models**, providing hardware feature flags for HVAC integrations, Home Assistant custom integrations, companion libraries, and dashboard cards.
 
 ---
 
-## Installation & Usage
+## Table of Contents
 
-### Python Library (Backend / Home Assistant Integrations)
+1. [Installation](#installation)
+2. [Model Capability Database & Lookup Engine](#model-capability-database--lookup-engine)
+   - [Python Backend Usage](#python-backend-usage)
+   - [JavaScript / Frontend CDN Usage](#javascript--frontend-cdn-usage)
+   - [Hardware Feature Gating Rules](#hardware-feature-gating-rules)
+3. [Infrared (IR) Protocol Engine](#infrared-ir-protocol-engine)
+   - [Python IR Code Generation](#python-ir-code-generation)
+   - [Parameters & Defaults](#generate_ir_code-parameters--defaults)
+   - [Supported Output Formats & Target Hardware](#supported-output-formats--target-hardware)
+4. [Database Summary](#database-summary)
+5. [Contributing & Authors](#contributing--authors)
 
-Install via `pip`:
+---
+
+## Installation
+
+Install the Python package via `pip`:
 
 ```bash
 pip install panasonic-ac-models
 ```
+
+Or fetch the standalone JSON database directly in frontend cards via jsDelivr CDN:
+
+```text
+https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json
+```
+
+---
+
+## Model Capability Database & Lookup Engine
+
+### Python Backend Usage
 
 Query feature gating flags using the normalized lookup engine:
 
@@ -30,6 +56,11 @@ caps = lookup.get_capabilities("CS-CU-EU18CKY5XFM")
 
 print(f"Model Series: {caps['series']} (Gen {caps['generation']})")
 print(f"Family Key:   {caps['family_key']}")
+print(f"Resolved Via: {caps['resolved_via']}")
+# - "database":     Exact match in models.json
+# - "decoded":      Dynamically parsed via Indian BEE model syntax
+# - "safe_default": Unrecognized SKU fallback (family_key="UNKNOWN", safe defaults applied)
+# Note: Feature flags (has_wifi, has_heat_mode, has_nanoe) are returned as integer 1 or 0.
 
 # -------------------------------------------------------------
 # 1. Route by Integration Type
@@ -80,19 +111,13 @@ if converti == "8-in-1":
     converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_60", "cv_50", "cv_40"]
 elif converti == "7-in-1":
     converti_presets = ["cv_110", "cv_100", "cv_90", "cv_80", "cv_70", "cv_55", "cv_40"]
-else:  # "none" -> Pre-2023 auto-convertible or fixed-speed (IR-only just means no Wi-Fi, IR models can still have converti modes): hide converti presets
+else:  # "none" -> Pre-2023 auto-convertible or fixed-speed: hide converti presets
     converti_presets = []
 ```
 
----
+### JavaScript / Frontend CDN Usage
 
-### Direct CDN (JavaScript / Frontend Cards)
-
-Fetch `models.json` directly via jsDelivr CDN:
-
-```
-https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json
-```
+Fetch `models.json` directly from CDN in custom cards:
 
 ```javascript
 fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.json")
@@ -132,9 +157,7 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
   });
 ```
 
----
-
-## Feature Gating Rules
+### Hardware Feature Gating Rules
 
 | Feature | Applies To | Series / Condition |
 |---|---|---|
@@ -145,7 +168,179 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
 | **Nanoe-X (Commercial)** | Commercial heat pump cassettes | PU Gen 6/7/8, PB commercial tower |
 | **Converti 8-in-1** | 2026+ generation models | NU/SU/WU/QU (Gen ≥ B) and EZ/HU/EU/AU (Gen ≥ C) |
 | **Converti 7-in-1** | 2023–2025 generation models | All other 2023–2025 inverter splits |
-| **No Converti** | Pre-2023 or fixed-speed / commercial | Gen W, X (sensor auto-scaling), fixed-speed models (IR-only just means no Wi-Fi), all commercial cassettes |
+| **No Converti** | Pre-2023 or fixed-speed / commercial | Gen W, X (sensor auto-scaling), fixed-speed models, all commercial cassettes |
+
+---
+
+## Infrared (IR) Protocol Engine
+
+> [!TIP]
+> **Production Reference Implementation**:
+> For a complete, production-tested Home Assistant custom integration implementing this IR protocol engine alongside Wi-Fi and MQTT cloud/local control, see **[ha-miraie-ac-in](https://github.com/selvakk2k/ha-miraie-ac-in)**.
+
+`panasonic-ac-models` includes a hardware-verified IR bitstream generator for Panasonic's Indian AC models. It supports full 27-byte state packets, 16-byte short frames (Display, Coil Clean, Powerful), and dual-vane / single-vane mirroring logic.
+
+### Python IR Code Generation
+
+```python
+from panasonic_ac_models import generate_ir_code
+
+# =============================================================
+# 1. Standard Cooling with Dual-Vane Control (27-Byte Full Frame)
+# =============================================================
+ir_cool = generate_ir_code(
+    mode="cool",           # "cool", "dry", "fan_only", "auto", "heat", "off"
+    target_temp=24,        # 16 to 30°C
+    fan="auto",            # "quiet", "low", "mid", "high", "auto"
+    v_vane="V1",           # "V0" (Auto Swing), "V1" (Top) to "V5" (Bottom)
+    h_vane="H0",           # "H0" (Auto Swing), "H1" (Left) to "H5" (Right), or None (Single-Vane)
+    eco=False,
+    nanoe=False,
+    series="EU"            # Series profile (e.g. EU, NU, SU, HU, KZ, CS)
+)
+
+print(ir_cool["description"])
+# => "EU Series | COOL 24°C (Fan: auto, V-Vane: V1, H-Vane: H0 [Dual-Vane], ECO: OFF, NANOE: OFF)"
+
+# =============================================================
+# 2. Eco Mode (Energy Saver)
+# Clamps Byte 14 to 26°C and sets the physical Eco flag (Byte 22 = 0x08)
+# =============================================================
+ir_eco = generate_ir_code(
+    mode="cool",
+    target_temp=24,        # Clamped to 26°C in bitstream when eco=True
+    fan="auto",
+    v_vane="V1",
+    eco=True
+)
+
+print(ir_eco["description"])
+# => "EU Series | COOL 26°C (Fan: auto, V-Vane: V1, H-Vane: Mirrored [Single-Vane], ECO: ON, NANOE: OFF)"
+
+# =============================================================
+# 3. Dual Heat Pump (Heat Mode for EZ & KZ Series)
+# =============================================================
+ir_heat = generate_ir_code(
+    mode="heat",
+    target_temp=28,
+    fan="high",
+    v_vane="V5",           # Point louvers downward for heating
+    series="KZ"
+)
+
+print(ir_heat["description"])
+# => "KZ Hot & Cold Series | HEAT 28°C (Fan: high, V-Vane: V5, H-Vane: Mirrored [Single-Vane], ECO: OFF, NANOE: OFF)"
+
+# =============================================================
+# 4. Special 16-Byte Short-Frame Commands
+# Instant single-action pulses that do not resend full temperature/fan state
+# =============================================================
+
+# Powerful / Turbo Boost:
+ir_powerful = generate_ir_code(mode="powerful")
+print(ir_powerful["description"])
+# => "SPECIAL FEATURE: POWERFUL / TURBO"
+
+# Toggle Indoor Unit Display LED / Temperature Screen:
+ir_display = generate_ir_code(mode="display")
+print(ir_display["description"])
+# => "SPECIAL FEATURE: DISPLAY LED TOGGLE"
+
+# Trigger Self-Clean / Coil Cleaning Cycle:
+ir_clean = generate_ir_code(mode="clean")
+print(ir_clean["description"])
+# => "SPECIAL FEATURE: SELF CLEAN"
+
+# Set Converti Capacity Preset (e.g. 80% or 110% High Capacity):
+ir_conv80 = generate_ir_code(mode="converti_80")
+print(ir_conv80["description"])
+# => "CONVERTI MODE: 80% CAPACITY"
+
+ir_conv110 = generate_ir_code(mode="converti_110")
+print(ir_conv110["description"])
+# => "CONVERTI MODE: 110% HIGH CAPACITY"
+
+# Turn Off the AC:
+ir_off = generate_ir_code(mode="off")
+print(ir_off["description"])
+# => "EU Series | OFF 24°C (Fan: low, V-Vane: V1, H-Vane: Mirrored [Single-Vane], ECO: OFF, NANOE: OFF)"
+
+# =============================================================
+# 5. Extracting Protocol Payloads for Target Hardware
+# =============================================================
+
+# Home Assistant Native 'infrared' Platform & ESPHome (List of microsecond timings):
+raw_pulses = ir_cool["raw"]             # [3443, -1748, 434, -437, 469, -1311, ...]
+
+# Broadlink RM4 / RM3 Hubs (Base64 string):
+broadlink_code = ir_cool["broadlink_b64"]  # "JgBIAAGn..."
+
+# Tuya Local Hubs (DP 201 Base64 string):
+tuya_code = ir_cool["tuya_b64"]         # "B/4Dbg..."
+
+# Tasmota MQTT (JSON string for cmnd/<device>/IRsend):
+tasmota_payload = ir_cool["tasmota_json"] # '{"Protocol":"PANASONIC_AC","Bits":216,"Data":"0x..."}'
+
+# Panasonic 54-char AEHA Hardware Hex Stream (ahea_hex kept as alias):
+aeha_hex = ir_cool["aeha_hex"]           # "0x0220E004000000060220E004..."
+
+# =============================================================
+# 6. Hardware Dispatch Examples (Sending to Hardware)
+# =============================================================
+
+# --- Option A: Home Assistant Native 'infrared' Platform (ESPHome) ---
+# from homeassistant.components.infrared import async_send_command, InfraredCommand
+# await async_send_command(hass, "infrared.living_room_blaster", InfraredCommand(raw_pulses))
+
+# --- Option B: Home Assistant 'remote' Service (Broadlink / Tuya) ---
+# await hass.services.async_call("remote", "send_command", {
+#     "entity_id": "remote.living_room_blaster",
+#     "command": [f"b64:{broadlink_code}"]  # Or [tuya_code] for Tuya Local
+# })
+
+# --- Option C: Direct Python Broadlink SDK ---
+# import base64, broadlink
+# bl_device = broadlink.hello("192.168.1.50")
+# bl_device.auth()
+# bl_device.send_data(base64.b64decode(broadlink_code))
+
+# --- Option D: MQTT / Tasmota (paho-mqtt) ---
+# import paho.mqtt.publish as publish
+# publish.single("cmnd/tasmota_ir/IRsend", tasmota_payload, hostname="192.168.1.10")
+```
+
+### `generate_ir_code()` Parameters & Defaults
+
+| Argument | Type | Default | Description |
+|:---|:---|:---:|:---|
+| `mode` | `str` | `"cool"` | HVAC mode (`"cool"`, `"dry"`, `"fan_only"`, `"auto"`, `"heat"`, `"off"`) or short frame (`"display"`, `"clean"`, `"powerful"`, `"converti_80"`, etc.) |
+| `target_temp` | `int` | `24` | Target temperature (16–30°C). Automatically clamped to 26°C when `eco=True`. |
+| `fan` | `str` | `"low"` | Fan speed: `"quiet"`, `"low"`, `"mid"`, `"high"`, `"auto"` |
+| `v_vane` | `str` | `"V1"` | Vertical louver: `"V0"` (Auto Swing), `"V1"` (Top) to `"V5"` (Bottom) |
+| `h_vane` | `str` / `None` | `None` | Horizontal louver: `"H0"` (Auto Swing), `"H1"` to `"H5"`. When `None`, mirrors `v_vane` (Single-Vane). |
+| `eco` | `bool` | `False` | Sets Byte 22 = `0x08` and clamps Byte 14 setpoint to 26°C. |
+| `nanoe` | `bool` | `False` | Activates Nanoe-X air purification ionizer. |
+| `series` | `str` | `"EU"` | Model series profile: `"EU"`, `"NU"`, `"SU"`, `"HU"`, `"KZ"`, `"CS"` |
+
+> [!NOTE]
+> **Short-Frame Precedence**: When using special short-frame commands (`mode="display"`, `"clean"`, `"powerful"`, `"converti_XX"`), state parameters (`target_temp`, `fan`, `v_vane`) are ignored since 16-byte pulses are dedicated single-action triggers.
+
+---
+
+### Supported Output Formats & Target Hardware
+
+| Format Key | Output Type | Target Hardware / Platform | Verification Status |
+|:---|:---|:---|:---|
+| **`raw`** | `list[int]` | **Home Assistant Native `infrared` Platform** & **ESPHome** (`remote_receiver` / `remote_transmitter`) | ✅ **Hardware-Tested & Confirmed** (Tested and verified on physical AC hardware) |
+| **`aeha_hex`** | `str` (Hex) | **Panasonic 54-char AEHA Hex Stream** (`0x0220E004...`) | ✅ **Hardware-Capture Verified** (Matches physical remote captures 1:1; `ahea_hex` alias retained) |
+| **`tasmota_json`**| `str` (JSON) | **Tasmota MQTT** (`IRsend {"Protocol":"PANASONIC_AC","Bits":216,"Data":"..."}`) | ⚡ **Format Verified** *(Not tested on physical Tasmota hardware)* |
+| **`broadlink_b64`**| `str` (Base64) | **Broadlink Hubs** (`RM4 Mini`, `RM4 Pro`, `RM3 Mini` via `remote.send_command`) | ⚡ **Format Verified** *(Not tested on physical Broadlink hardware)* |
+| **`tuya_b64`** | `str` (Base64) | **Tuya Local / LocalTuya IR Hubs** (DP 201 via `remote.send_command`) | ⚡ **Format Verified** *(Not tested on physical Tuya hardware)* |
+| **`pronto_hex`** | `str` (Hex) | **Pronto Hex (4-digit word sequence)** | ⚠️ **Experimental** *(Not tested on physical hardware; not recommended due to 2,200+ char buffer limits)* |
+
+> [!WARNING]
+> **Pronto Hex Limitation for AC Units**:
+> Panasonic AC remotes transmit 216 bits (436 pulses), generating a Pronto string of over 2,200 characters. Many Home Assistant integrations (such as *HAIR* or low-buffer serial bridges) cannot parse Pronto strings of this length and may experience timing drift or buffer truncation. For production setups, use **Native `infrared` (`raw`)**, **Broadlink**, or **Tuya Base64**.
 
 ---
 
@@ -158,7 +353,7 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
 
 ---
 
-## Contributing
+## Contributing & Authors
 
 Pull requests are welcome! To add or correct a model:
 
@@ -167,9 +362,6 @@ Pull requests are welcome! To add or correct a model:
 3. Set `has_wifi: 0` for IR-only models, `has_wifi: 1` for Wi-Fi smart models.
 4. Submit a PR. Continuous Integration (`check-jsonschema`) will validate changes against `schema.json`.
 
----
-
-## Authors & Credits
-
+### Authors & Credits
 - **Lead Maintainer**: [@selvakk2k](https://github.com/selvakk2k)
 - **AI Pair Programming & Architecture**: Antigravity (Google DeepMind Team)
