@@ -75,13 +75,23 @@ class TestPanasonicACModels(unittest.TestCase):
         auto_ir = generate_ir_code(mode="cool", target_temp=26, fan="auto", v_vane="V1", h_vane="H0", series="EU")
         self.assertEqual(auto_ir["ahea_hex"], "0x0220E004000000060220E00400393480A10D000EE0000089000018")
 
+    def test_ir_generation_eco_hardware_captures(self):
+        # Hardware-verified against physical remote captures
+        # ECO ON: forces 26C (0x34) and sets Byte 22 to 0x08
+        eco_on = generate_ir_code(mode="cool", target_temp=24, fan="auto", v_vane="V1", h_vane="H0", eco=True, series="EU")
+        self.assertEqual(eco_on["ahea_hex"], "0x0220E004000000060220E00400393480A10D000EE0000889000020")
+
+        # ECO OFF: maintains requested temperature 27C (0x36) and clears Byte 22 to 0x00
+        eco_off = generate_ir_code(mode="cool", target_temp=27, fan="auto", v_vane="V1", h_vane="H0", eco=False, series="EU")
+        self.assertEqual(eco_off["ahea_hex"], "0x0220E004000000060220E00400393680A10D000EE000008900001A")
+
     def test_ir_generation_short_frames(self):
         nanoe_ir = generate_ir_code(mode="nanoe")
         self.assertGreater(len(nanoe_ir["raw"]), 100)
         self.assertIn("NANOE", nanoe_ir["description"])
 
-        eco_ir = generate_ir_code(mode="eco")
-        self.assertIn("ECO", eco_ir["description"])
+        clean_ir = generate_ir_code(mode="clean")
+        self.assertIn("CLEAN", clean_ir["description"])
 
 if __name__ == "__main__":
     unittest.main()
