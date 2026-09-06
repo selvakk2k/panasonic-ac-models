@@ -190,5 +190,23 @@ class TestPanasonicACModels(unittest.TestCase):
         self.assertIsNone(decode_ir_code("invalid_payload"))
         self.assertIsNone(decode_ir_code([]))
 
+    def test_auto_and_dry_mode_normalization(self):
+        from panasonic_ac_models import decode_ir_code
+
+        # Auto mode without explicit temp defaults to 24°C
+        auto_ir = generate_ir_code(mode="auto", fan="auto", v_vane="V1", h_vane="H0", series="EU")
+        self.assertIn("24°C", auto_ir["description"])
+        dec_auto = decode_ir_code(auto_ir["aeha_hex"])
+        self.assertIsNotNone(dec_auto)
+        self.assertEqual(dec_auto["mode"], "auto")
+        self.assertEqual(dec_auto["temperature"], 24)
+
+        # Dry mode enforces Low fan speed
+        dry_ir = generate_ir_code(mode="dry", target_temp=26, fan="high", v_vane="V1", h_vane="H0", series="EU")
+        dec_dry = decode_ir_code(dry_ir["aeha_hex"])
+        self.assertIsNotNone(dec_dry)
+        self.assertEqual(dec_dry["mode"], "dry")
+        self.assertEqual(dec_dry["fan_speed"], "low")
+
 if __name__ == "__main__":
     unittest.main()

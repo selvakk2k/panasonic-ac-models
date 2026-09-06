@@ -1,0 +1,7 @@
+search_path = [".", "panasonic_ac_models"]
+project-excludes = ["tests", ".venv"]
+min-severity = "error"
+
+[errors]
+redundant-cast = false
+unnecessary-call = false
