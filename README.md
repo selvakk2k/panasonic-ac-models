@@ -1,7 +1,6 @@
 # panasonic-ac-models
 
-[![Stable](https://img.shields.io/github/v/release/selvakk2k/panasonic-ac-models?label=Stable&style=flat-square)](https://github.com/selvakk2k/panasonic-ac-models/releases/latest)
-[![Beta](https://img.shields.io/github/v/release/selvakk2k/panasonic-ac-models?include_prereleases&label=Beta&color=orange&style=flat-square)](https://github.com/selvakk2k/panasonic-ac-models/releases)
+[![Version](https://img.shields.io/github/v/release/selvakk2k/panasonic-ac-models?style=flat-square)](https://github.com/selvakk2k/panasonic-ac-models/releases)
 [![AI-Assisted](https://img.shields.io/badge/AI%20Assisted-Antigravity%20%7C%20Claude-blueviolet?style=flat-square&logo=google)](https://github.com/selvakk2k)
 [![AI Attribution](https://img.shields.io/badge/AI%20Attribution-AIA%20PAI%20Nc%20Hin-orange?style=flat-square)](https://aiattribution.github.io/interpret-attribution)
 
