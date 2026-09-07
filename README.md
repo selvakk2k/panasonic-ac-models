@@ -371,4 +371,4 @@ Pull requests are welcome! To add or correct a model:
 * **Code Implementation & Engineering**: **Antigravity** (Google DeepMind) — lookup engine algorithms, 216-bit IR generator, format encoders (Broadlink, Pronto, Tuya, Native), and JSON validation suite.
 * **Pre-Release Code Review & Auditing**: **Claude** (Anthropic) — independent schema verification, JSON structure audits, and edge-case testing.
 
-Licensed under the **MIT License**. See the `LICENSE` file for details.
+Licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
