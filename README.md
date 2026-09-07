@@ -1,5 +1,10 @@
 # panasonic-ac-models
 
+[![Stable](https://img.shields.io/github/v/release/selvakk2k/panasonic-ac-models?label=Stable&style=flat-square)](https://github.com/selvakk2k/panasonic-ac-models/releases/latest)
+[![Beta](https://img.shields.io/github/v/release/selvakk2k/panasonic-ac-models?include_prereleases&label=Beta&color=orange&style=flat-square)](https://github.com/selvakk2k/panasonic-ac-models/releases)
+[![AI-Assisted](https://img.shields.io/badge/AI%20Assisted-Antigravity%20%7C%20Claude-blueviolet?style=flat-square&logo=google)](https://github.com/selvakk2k)
+[![AI Attribution](https://img.shields.io/badge/AI%20Attribution-AIA%20PAI%20Nc%20Hin-orange?style=flat-square)](https://aiattribution.github.io/interpret-attribution)
+
 > [!NOTE]
 > **Regional Scope**: This database specifically tracks Panasonic Air Conditioner SKUs certified and sold in the **Indian Market** (MirAIe IoT platform & BEE rating taxonomy). International Panasonic models (e.g. European/Australian units on *Panasonic Comfort Cloud*) use different SKU naming conventions and cloud APIs.
 
@@ -363,5 +368,8 @@ Pull requests are welcome! To add or correct a model:
 4. Submit a PR. Continuous Integration (`check-jsonschema`) will validate changes against `schema.json`.
 
 ### Authors & Credits
-- **Lead Maintainer**: [@selvakk2k](https://github.com/selvakk2k)
-- **AI Pair Programming & Architecture**: Antigravity (Google DeepMind Team)
+* **Lead Architecture & Hardware Validation**: [@selvakk2k](https://github.com/selvakk2k) — BEE catalog cross-referencing, empirical MirAIe telemetry, physical remote captures, and schema architecture.
+* **Code Implementation & Engineering**: **Antigravity** (Google DeepMind) — lookup engine algorithms, 216-bit IR generator, format encoders (Broadlink, Pronto, Tuya, Native), and JSON validation suite.
+* **Pre-Release Code Review & Auditing**: **Claude** (Anthropic) — independent schema verification, JSON structure audits, and edge-case testing.
+
+Licensed under the **MIT License**. See the `LICENSE` file for details.
