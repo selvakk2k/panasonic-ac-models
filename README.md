@@ -1,4 +1,4 @@
-# panasonic-ac-models
+# Panasonic AC Hardware Profiles & IR Protocols (`panasonic-ac-models`)
 
 [![Version](https://img.shields.io/github/v/release/selvakk2k/panasonic-ac-models?style=flat-square)](https://github.com/selvakk2k/panasonic-ac-models/releases)
 [![AI-Assisted](https://img.shields.io/badge/AI%20Assisted-Antigravity%20%7C%20Claude-blueviolet?style=flat-square&logo=google)](https://github.com/selvakk2k)
