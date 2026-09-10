@@ -23,7 +23,8 @@ A comprehensive model capability database, lookup engine, and hardware-verified 
    - [Parameters & Defaults](#generate_ir_code-parameters--defaults)
    - [Supported Output Formats & Target Hardware](#supported-output-formats--target-hardware)
 4. [Database Summary](#database-summary)
-5. [Contributing & Authors](#contributing--authors)
+5. [My Python Libraries](#my-python-libraries)
+6. [Contributing & Authors](#contributing--authors)
 
 ---
 
@@ -354,6 +355,16 @@ aeha_hex = ir_cool["aeha_hex"]           # "0x0220E004000000060220E004..."
   - **398 Wi-Fi / MirAIe Smart models** across 115 families — for cloud/MQTT integrations.
   - **88 IR Remote-Only models** across 29 families — for IR blaster integrations.
 - **Data Sources**: Bureau of Energy Efficiency (BEE) certified labels, Panasonic India catalogs, empirical MirAIe telemetry, and live retail verification.
+
+---
+
+## My Python Libraries
+
+| Library | PyPI Package | Description | Status |
+| :--- | :--- | :--- | :--- |
+| [Panasonic AC Models](https://github.com/selvakk2k/panasonic-ac-models) | `panasonic-ac-models` | Hardware profiles, capability lookup & IR protocol generator for Indian Panasonic ACs | `Stable` |
+| [IFB Washer Models](https://github.com/selvakk2k/ifb-washer-models) | `ifb-washer-models` | Unified hardware database, model lookup & cycle capability gating for IFB smart washers | `Stable` |
+| [MirAIe AC API Client](https://github.com/selvakk2k/miraie-ac-in) | `miraie-ac-in` | Async MQTT & REST API client for Panasonic MirAIe-connected Air Conditioners | `Stable` |
 
 ---
 
