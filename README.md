@@ -181,7 +181,7 @@ fetch("https://cdn.jsdelivr.net/gh/selvakk2k/panasonic-ac-models@main/models.jso
 
 > [!TIP]
 > **Production Reference Implementation**:
-> For a complete, production-tested Home Assistant custom integration implementing this IR protocol engine alongside Wi-Fi and MQTT cloud/local control, see **[ha-miraie-ac-in](https://github.com/selvakk2k/ha-miraie-ac-in)**.
+> For a complete, production-tested Home Assistant custom integration implementing this IR protocol engine alongside Wi-Fi and MQTT cloud/local control, see **[ha-panasonic-ac-in](https://github.com/selvakk2k/ha-panasonic-ac-in)**.
 
 `panasonic-ac-models` includes a hardware-verified IR bitstream generator for Panasonic's Indian AC models. It supports full 27-byte state packets, 16-byte short frames (Display, Coil Clean, Powerful), and dual-vane / single-vane mirroring logic.
 
