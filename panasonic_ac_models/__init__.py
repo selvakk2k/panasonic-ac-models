@@ -1,4 +1,4 @@
-from .lookup import ACModelLookup, normalize_code
+from .lookup import ACModelLookup, normalize_code, get_bee_profile
 from .decoder import decode_model_string
 from .ir import (
     generate_ir_code,
@@ -13,6 +13,7 @@ from .ir import (
 __all__ = [
     "ACModelLookup",
     "normalize_code",
+    "get_bee_profile",
     "decode_model_string",
     "generate_ir_code",
     "decode_ir_code",

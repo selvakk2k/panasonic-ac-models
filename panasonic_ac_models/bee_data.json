@@ -1,0 +1,4574 @@
+[
+  {
+    "model": "S-24PUY6H59B/U-24PNY6H59",
+    "star_rating": 3,
+    "ton": 1.85,
+    "iseer": 4.6,
+    "annual_kwh": 1093.2,
+    "valid_till": "12/31/2027",
+    "app_no": "158244"
+  },
+  {
+    "model": "S-18PUY6H59B/U-18PNY6H59",
+    "star_rating": 4,
+    "ton": 1.5,
+    "iseer": 5.1,
+    "annual_kwh": 800.12,
+    "valid_till": "12/31/2027",
+    "app_no": "158348"
+  },
+  {
+    "model": "CS-NU12YKY5D/CU-NU12YKY5D",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.15,
+    "valid_till": "12/31/2027",
+    "app_no": "161367"
+  },
+  {
+    "model": "CS-NU12YKY5F/CU-NU12YKY5F",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.15,
+    "valid_till": "12/31/2027",
+    "app_no": "161367"
+  },
+  {
+    "model": "CS-NU12YKY5W/CU-NU12YKY5W",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.15,
+    "valid_till": "12/31/2027",
+    "app_no": "161367"
+  },
+  {
+    "model": "CS-NU18YKY5D/CU-NU18YKY5D",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "161369"
+  },
+  {
+    "model": "CS-NU18YKY5F/CU-NU18YKY5F",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "161369"
+  },
+  {
+    "model": "CS-NU18YKY5W/CU-NU18YKY5W",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "161369"
+  },
+  {
+    "model": "S-24PUY7H5YD/U-24PZY7H5Y",
+    "star_rating": 3,
+    "ton": 1.85,
+    "iseer": 4.7,
+    "annual_kwh": 1070.16,
+    "valid_till": "12/31/2027",
+    "app_no": "161400"
+  },
+  {
+    "model": "S-18PUY7H5YD/U-18PZY7H5Y",
+    "star_rating": 4,
+    "ton": 1.5,
+    "iseer": 5.1,
+    "annual_kwh": 800.12,
+    "valid_till": "12/31/2027",
+    "app_no": "161401"
+  },
+  {
+    "model": "CS-SU18YKYTD/CU-SU18YKYTD",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1002.72,
+    "valid_till": "12/31/2027",
+    "app_no": "161527"
+  },
+  {
+    "model": "CS-SU18YKYTF/CU-SU18YKYTF",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1002.72,
+    "valid_till": "12/31/2027",
+    "app_no": "161527"
+  },
+  {
+    "model": "CS-SU18YKYTK/CU-SU18YKYTK",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1002.72,
+    "valid_till": "12/31/2027",
+    "app_no": "161527"
+  },
+  {
+    "model": "CS-SU18YKYWT/CU-SU18YKYWT",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1002.72,
+    "valid_till": "12/31/2027",
+    "app_no": "161527"
+  },
+  {
+    "model": "CS-KU12ZKY-1/CU-KU12ZKY-1",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "162285"
+  },
+  {
+    "model": "CS-KU12ZKY/CU-KU12ZKY",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "162285"
+  },
+  {
+    "model": "CS-KU12ZKYD/CU-KU12ZKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "162285"
+  },
+  {
+    "model": "CS-KU12ZKYF/CU-KU12ZKYF",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "162285"
+  },
+  {
+    "model": "CS-KU12ZKYF1/CU-KU12ZKYF1",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "162285"
+  },
+  {
+    "model": "CS-SU12YKYWA/CU-SU12YKYWA",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "162285"
+  },
+  {
+    "model": "CS-SU12YKYWD/CU-SU12YKYWD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "162285"
+  },
+  {
+    "model": "CS-SU12YKYWF/CU-SU12YKYWF",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "162285"
+  },
+  {
+    "model": "CS-YU12ZKYD/CU-YU12ZKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "162285"
+  },
+  {
+    "model": "CS-SU24YKYWA/CU-SU24YKYWA",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.16,
+    "valid_till": "12/31/2027",
+    "app_no": "162288"
+  },
+  {
+    "model": "CS-SU24YKYWD/CU-SU24YKYWD",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.16,
+    "valid_till": "12/31/2027",
+    "app_no": "162288"
+  },
+  {
+    "model": "CS-SU24YKYWF/CU-SU24YKYWF",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.16,
+    "valid_till": "12/31/2027",
+    "app_no": "162288"
+  },
+  {
+    "model": "CS-TU18ZKY-1/CU-TU18ZKY-1",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.8,
+    "valid_till": "12/31/2027",
+    "app_no": "162656"
+  },
+  {
+    "model": "CS-TU18ZKY/CU-TU18ZKY",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.8,
+    "valid_till": "12/31/2027",
+    "app_no": "162656"
+  },
+  {
+    "model": "CS-TU18ZKY5D/CU-TU18ZKY5D",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.8,
+    "valid_till": "12/31/2027",
+    "app_no": "162656"
+  },
+  {
+    "model": "CS-TU18ZKYF/CU-TU18ZKYF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.8,
+    "valid_till": "12/31/2027",
+    "app_no": "162656"
+  },
+  {
+    "model": "CS-NU18YKY4/CU-NU18YKY4",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.76,
+    "valid_till": "12/31/2027",
+    "app_no": "162961"
+  },
+  {
+    "model": "CS-NU18YKY4D/CU-NU18YKY4D",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.76,
+    "valid_till": "12/31/2027",
+    "app_no": "162961"
+  },
+  {
+    "model": "CS-NU18YKY4F/CU-NU18YKY4F",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.76,
+    "valid_till": "12/31/2027",
+    "app_no": "162961"
+  },
+  {
+    "model": "CS-NU18YKY4W/CU-NU18YKY4W",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.76,
+    "valid_till": "12/31/2027",
+    "app_no": "162961"
+  },
+  {
+    "model": "CS-QU26ZKY/CU-QU26ZKY",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "164765"
+  },
+  {
+    "model": "CS-QU26ZKYD/CU-QU26ZKYD",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "164765"
+  },
+  {
+    "model": "CS-QU26ZKYF/CU-QU26ZKYF",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "164765"
+  },
+  {
+    "model": "CS-NU12ZKY4D/CU-NU12ZKY4D",
+    "star_rating": 3,
+    "ton": 1.0,
+    "iseer": 4.5,
+    "annual_kwh": 601.5,
+    "valid_till": "12/31/2027",
+    "app_no": "170711"
+  },
+  {
+    "model": "CS-NU12ZKY4F/CU-NU12ZKY4F",
+    "star_rating": 3,
+    "ton": 1.0,
+    "iseer": 4.5,
+    "annual_kwh": 601.5,
+    "valid_till": "12/31/2027",
+    "app_no": "170711"
+  },
+  {
+    "model": "CS-NU12ZKY4W/CU-NU12ZKY4W",
+    "star_rating": 3,
+    "ton": 1.0,
+    "iseer": 4.5,
+    "annual_kwh": 601.5,
+    "valid_till": "12/31/2027",
+    "app_no": "170711"
+  },
+  {
+    "model": "CS-NU18ZKY4D/CU-NU18ZKY4D",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.76,
+    "valid_till": "12/31/2027",
+    "app_no": "170714"
+  },
+  {
+    "model": "CS-NU18ZKY4F/CU-NU18ZKY4F",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.76,
+    "valid_till": "12/31/2027",
+    "app_no": "170714"
+  },
+  {
+    "model": "CS-NU18ZKY4W/CU-NU18ZKY4W",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.76,
+    "valid_till": "12/31/2027",
+    "app_no": "170714"
+  },
+  {
+    "model": "CS-NU18ZKY5D/CU-NU18ZKY5D",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "170798"
+  },
+  {
+    "model": "CS-NU18ZKY5F/CU-NU18ZKY5F",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "170798"
+  },
+  {
+    "model": "CS-NU18ZKY5W/CU-NU18ZKY5W",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "170798"
+  },
+  {
+    "model": "CS-XU18AKY/CU-XU18AKY",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "170800"
+  },
+  {
+    "model": "CS-XU18AKYD/CU-XU18AKYD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "170800"
+  },
+  {
+    "model": "CS-XU18AKYF/CU-XU18AKYF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "170800"
+  },
+  {
+    "model": "CS-KZ24AKY/CU-KZ24AKY",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.1,
+    "annual_kwh": 1170.01,
+    "valid_till": "12/31/2027",
+    "app_no": "170801"
+  },
+  {
+    "model": "CS-KZ24AKYD/CU-KZ24AKYD",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.1,
+    "annual_kwh": 1170.01,
+    "valid_till": "12/31/2027",
+    "app_no": "170801"
+  },
+  {
+    "model": "CS-KZ24AKYF/CU-KZ24AKYF",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.1,
+    "annual_kwh": 1170.01,
+    "valid_till": "12/31/2027",
+    "app_no": "170801"
+  },
+  {
+    "model": "CS-SU18ZKYTD/CU-SU18ZKYTD",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 3.9,
+    "annual_kwh": 952.59,
+    "valid_till": "12/31/2027",
+    "app_no": "170805"
+  },
+  {
+    "model": "CS-SU18ZKYTF/CU-SU18ZKYTF",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 3.9,
+    "annual_kwh": 952.59,
+    "valid_till": "12/31/2027",
+    "app_no": "170805"
+  },
+  {
+    "model": "CS-SU18ZKYTK/CU-SU18ZKYTK",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 3.9,
+    "annual_kwh": 952.59,
+    "valid_till": "12/31/2027",
+    "app_no": "170805"
+  },
+  {
+    "model": "CS-AU18AKYA/CU-AU18AKYA",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.9,
+    "annual_kwh": 1011.67,
+    "valid_till": "12/31/2027",
+    "app_no": "170923"
+  },
+  {
+    "model": "CS-AU18AKYAD/CU-AU18AKYAD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.9,
+    "annual_kwh": 1011.67,
+    "valid_till": "12/31/2027",
+    "app_no": "170923"
+  },
+  {
+    "model": "CS-AU18AKYFA/CU-AU18AKYFA",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.9,
+    "annual_kwh": 1011.67,
+    "valid_till": "12/31/2027",
+    "app_no": "170923"
+  },
+  {
+    "model": "CS-KZ18AKY/CU-KZ18AKY",
+    "star_rating": 2,
+    "ton": 1.46,
+    "iseer": 4.1,
+    "annual_kwh": 972.89,
+    "valid_till": "12/31/2027",
+    "app_no": "170973"
+  },
+  {
+    "model": "CS-KZ18AKYD/CU-KZ18AKYD",
+    "star_rating": 2,
+    "ton": 1.46,
+    "iseer": 4.1,
+    "annual_kwh": 972.89,
+    "valid_till": "12/31/2027",
+    "app_no": "170973"
+  },
+  {
+    "model": "CS-KZ18AKYF/CU-KZ18AKYF",
+    "star_rating": 2,
+    "ton": 1.46,
+    "iseer": 4.1,
+    "annual_kwh": 972.89,
+    "valid_till": "12/31/2027",
+    "app_no": "170973"
+  },
+  {
+    "model": "CS-AU18AKY/CU-AU18AKY",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.95,
+    "annual_kwh": 1000.53,
+    "valid_till": "12/31/2027",
+    "app_no": "171185"
+  },
+  {
+    "model": "CS-AU18AKYD/CU-AU18AKYD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.95,
+    "annual_kwh": 1000.53,
+    "valid_till": "12/31/2027",
+    "app_no": "171185"
+  },
+  {
+    "model": "CS-AU18AKYF/CU-AU18AKYF",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.95,
+    "annual_kwh": 1000.53,
+    "valid_till": "12/31/2027",
+    "app_no": "171185"
+  },
+  {
+    "model": "CS-AU24AKY/CU-AU24AKY",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.16,
+    "valid_till": "12/31/2027",
+    "app_no": "171186"
+  },
+  {
+    "model": "CS-AU24AKYD/CU-AU24AKYD",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.16,
+    "valid_till": "12/31/2027",
+    "app_no": "171186"
+  },
+  {
+    "model": "CS-AU24AKYF/CU-AU24AKYF",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.16,
+    "valid_till": "12/31/2027",
+    "app_no": "171186"
+  },
+  {
+    "model": "CS-QU26AKY/CU-QU26AKY",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "171241"
+  },
+  {
+    "model": "CS-QU26AKYD/CU-QU26AKYD",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "171241"
+  },
+  {
+    "model": "CS-QU26AKYF/CU-QU26AKYF",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "171241"
+  },
+  {
+    "model": "CS-SU18ZKYWT/CU-SU18ZKYWT",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1002.31,
+    "valid_till": "12/31/2027",
+    "app_no": "171250"
+  },
+  {
+    "model": "CS-SU18ZKYWTD/CU-SU18ZKYWTD",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1002.31,
+    "valid_till": "12/31/2027",
+    "app_no": "171250"
+  },
+  {
+    "model": "CS-SU18ZKYWTF/CU-SU18ZKYWTF",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1002.31,
+    "valid_till": "12/31/2027",
+    "app_no": "171250"
+  },
+  {
+    "model": "CS-RU18AKY/CU-RU18AKY",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.95,
+    "annual_kwh": 1000.53,
+    "valid_till": "12/31/2027",
+    "app_no": "171395"
+  },
+  {
+    "model": "CS-RU18AKYD/CU-RU18AKYD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.95,
+    "annual_kwh": 1000.53,
+    "valid_till": "12/31/2027",
+    "app_no": "171395"
+  },
+  {
+    "model": "CS-RU18AKYF/CU-RU18AKYF",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.95,
+    "annual_kwh": 1000.53,
+    "valid_till": "12/31/2027",
+    "app_no": "171395"
+  },
+  {
+    "model": "CS-SU24ZKYWA/CU-SU24ZKYWA",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 3.95,
+    "annual_kwh": 1215.59,
+    "valid_till": "12/31/2027",
+    "app_no": "171416"
+  },
+  {
+    "model": "CS-SU24ZKYWD/CU-SU24ZKYWD",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 3.95,
+    "annual_kwh": 1215.59,
+    "valid_till": "12/31/2027",
+    "app_no": "171416"
+  },
+  {
+    "model": "CS-SU24ZKYWF/CU-SU24ZKYWF",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 3.95,
+    "annual_kwh": 1215.59,
+    "valid_till": "12/31/2027",
+    "app_no": "171416"
+  },
+  {
+    "model": "CS-KU18AKY/CU-KU18AKY",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1003.57,
+    "valid_till": "12/31/2027",
+    "app_no": "171651"
+  },
+  {
+    "model": "CS-KU18AKYD/CU-KU18AKYD",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1003.57,
+    "valid_till": "12/31/2027",
+    "app_no": "171651"
+  },
+  {
+    "model": "CS-KU18AKYF/CU-KU18AKYF",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1003.57,
+    "valid_till": "12/31/2027",
+    "app_no": "171651"
+  },
+  {
+    "model": "CS-YU18AKYD/CU-YU18AKYD",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.9,
+    "annual_kwh": 1003.57,
+    "valid_till": "12/31/2027",
+    "app_no": "171651"
+  },
+  {
+    "model": "CS-TU18AKY/CU-TU18AKY",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 773.75,
+    "valid_till": "12/31/2027",
+    "app_no": "171685"
+  },
+  {
+    "model": "CS-TU18AKYD/CU-TU18AKYD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 773.75,
+    "valid_till": "12/31/2027",
+    "app_no": "171685"
+  },
+  {
+    "model": "CS-TU18AKYF/CU-TU18AKYF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 773.75,
+    "valid_till": "12/31/2027",
+    "app_no": "171685"
+  },
+  {
+    "model": "CS-RU12AKY/CU-RU12AKY",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171710"
+  },
+  {
+    "model": "CS-RU12AKYD/CU-RU12AKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171710"
+  },
+  {
+    "model": "CS-RU12AKYF/CU-RU12AKYF",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171710"
+  },
+  {
+    "model": "CS-AU12AKY/CU-AU12AKY",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "171715"
+  },
+  {
+    "model": "CS-AU12AKYD/CU-AU12AKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "171715"
+  },
+  {
+    "model": "CS-AU12AKYF/CU-AU12AKYF",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.37,
+    "valid_till": "12/31/2027",
+    "app_no": "171715"
+  },
+  {
+    "model": "CS-RU9AKY/CU-RU9AKY",
+    "star_rating": 2,
+    "ton": 0.75,
+    "iseer": 3.95,
+    "annual_kwh": 519.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171716"
+  },
+  {
+    "model": "CS-RU9AKYD/CU-RU9AKYD",
+    "star_rating": 2,
+    "ton": 0.75,
+    "iseer": 3.95,
+    "annual_kwh": 519.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171716"
+  },
+  {
+    "model": "CS-RU9AKYF/CU-RU9AKYF",
+    "star_rating": 2,
+    "ton": 0.75,
+    "iseer": 3.95,
+    "annual_kwh": 519.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171716"
+  },
+  {
+    "model": "CS-KU12AKY/CU-KU12AKY",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171717"
+  },
+  {
+    "model": "CS-KU12AKYD/CU-KU12AKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171717"
+  },
+  {
+    "model": "CS-KU12AKYF/CU-KU12AKYF",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171717"
+  },
+  {
+    "model": "CS-SU12ZKYWA/CU-SU12ZKYWA",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171717"
+  },
+  {
+    "model": "CS-SU12ZKYWD/CU-SU12ZKYWD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171717"
+  },
+  {
+    "model": "CS-SU12ZKYWF/CU-SU12ZKYWF",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171717"
+  },
+  {
+    "model": "CS-YU12AKYD/CU-YU12AKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.95,
+    "annual_kwh": 676.64,
+    "valid_till": "12/31/2027",
+    "app_no": "171717"
+  },
+  {
+    "model": "CS-XU12AKY/CU-XU12AKY",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "171718"
+  },
+  {
+    "model": "CS-XU12AKYD/CU-XU12AKYD",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "171718"
+  },
+  {
+    "model": "CS-XU12AKYF/CU-XU12AKYF",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "171718"
+  },
+  {
+    "model": "CS-NU12ZKY5D/CU-NU12ZKY5D",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 524.08,
+    "valid_till": "12/31/2027",
+    "app_no": "172356"
+  },
+  {
+    "model": "CS-NU12ZKY5F/CU-NU12ZKY5F",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 524.08,
+    "valid_till": "12/31/2027",
+    "app_no": "172356"
+  },
+  {
+    "model": "CS-NU12ZKY5W/CU-NU12ZKY5W",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 524.08,
+    "valid_till": "12/31/2027",
+    "app_no": "172356"
+  },
+  {
+    "model": "CS-KU24AKY/CU-KU24AKY",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.99,
+    "valid_till": "12/31/2027",
+    "app_no": "172357"
+  },
+  {
+    "model": "CS-KU24AKYD/CU-KU24AKYD",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.99,
+    "valid_till": "12/31/2027",
+    "app_no": "172357"
+  },
+  {
+    "model": "CS-KU24AKYF/CU-KU24AKYF",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.99,
+    "valid_till": "12/31/2027",
+    "app_no": "172357"
+  },
+  {
+    "model": "CS-YU24AKYD/CU-YU24AKYD",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 3.95,
+    "annual_kwh": 1234.99,
+    "valid_till": "12/31/2027",
+    "app_no": "172357"
+  },
+  {
+    "model": "CS-EU18AKY3X/CU-EU18AKY3X",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.95,
+    "annual_kwh": 1000.53,
+    "valid_till": "12/31/2027",
+    "app_no": "172359"
+  },
+  {
+    "model": "CS-EU18AKY3XD/CU-EU18AKY3XD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.95,
+    "annual_kwh": 1000.53,
+    "valid_till": "12/31/2027",
+    "app_no": "172359"
+  },
+  {
+    "model": "CS-EU18AKY3XF/CU-EU18AKY3XF",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 3.95,
+    "annual_kwh": 1000.53,
+    "valid_till": "12/31/2027",
+    "app_no": "172359"
+  },
+  {
+    "model": "CS-EU18AKY5X/CU-EU18AKY5X",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "172418"
+  },
+  {
+    "model": "CS-EU18AKY5XD/CU-EU18AKY5XD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "172418"
+  },
+  {
+    "model": "CS-EU18AKY5XF/CU-EU18AKY5XF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "172418"
+  },
+  {
+    "model": "CS-EU18AKY5XFM/CU-EU18AKY5XFM",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "172418"
+  },
+  {
+    "model": "CS-EU18AKY5XM/CU-EU18AKY5XM",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "172418"
+  },
+  {
+    "model": "CS-EU24AKY3/CU-EU24AKY3",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 3.95,
+    "annual_kwh": 1215.89,
+    "valid_till": "12/31/2027",
+    "app_no": "172436"
+  },
+  {
+    "model": "CS-EU24AKY3D/CU-EU24AKY3D",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 3.95,
+    "annual_kwh": 1215.89,
+    "valid_till": "12/31/2027",
+    "app_no": "172436"
+  },
+  {
+    "model": "CS-EU24AKY3F/CU-EU24AKY3F",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 3.95,
+    "annual_kwh": 1215.89,
+    "valid_till": "12/31/2027",
+    "app_no": "172436"
+  },
+  {
+    "model": "CS-TU12AKY/CU-TU12AKY",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "172440"
+  },
+  {
+    "model": "CS-TU12AKYD/CU-TU12AKYD",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "172440"
+  },
+  {
+    "model": "CS-TU12AKYF/CU-TU12AKYF",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "172440"
+  },
+  {
+    "model": "CS-NU24ZKY4D/CU-NU24ZKY4D",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.5,
+    "annual_kwh": 1067.21,
+    "valid_till": "12/31/2027",
+    "app_no": "172647"
+  },
+  {
+    "model": "CS-NU24ZKY4F/CU-NU24ZKY4F",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.5,
+    "annual_kwh": 1067.21,
+    "valid_till": "12/31/2027",
+    "app_no": "172647"
+  },
+  {
+    "model": "CS-NU24ZKY4W/CU-NU24ZKY4W",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.5,
+    "annual_kwh": 1067.21,
+    "valid_till": "12/31/2027",
+    "app_no": "172647"
+  },
+  {
+    "model": "CS-EU12AKY3/CU-EU12AKY3",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.9,
+    "annual_kwh": 685.08,
+    "valid_till": "12/31/2027",
+    "app_no": "173060"
+  },
+  {
+    "model": "CS-EU12AKY3D/CU-EU12AKY3D",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.9,
+    "annual_kwh": 685.08,
+    "valid_till": "12/31/2027",
+    "app_no": "173060"
+  },
+  {
+    "model": "CS-EU12AKY3F/CU-EU12AKY3F",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 3.9,
+    "annual_kwh": 685.08,
+    "valid_till": "12/31/2027",
+    "app_no": "173060"
+  },
+  {
+    "model": "CS-EU12AKY5/CU-EU12AKY5",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "173063"
+  },
+  {
+    "model": "CS-EU12AKY5D/CU-EU12AKY5D",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "173063"
+  },
+  {
+    "model": "CS-EU12AKY5F/CU-EU12AKY5F",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "173063"
+  },
+  {
+    "model": "CS-EU12AKY5FM/CU-EU12AKY5FM",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "173063"
+  },
+  {
+    "model": "CS-EU12AKY5M/CU-EU12AKY5M",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 523.98,
+    "valid_till": "12/31/2027",
+    "app_no": "173063"
+  },
+  {
+    "model": "CS-HU12AKY/CU-HU12AKY",
+    "star_rating": 4,
+    "ton": 0.97,
+    "iseer": 5.1,
+    "annual_kwh": 516.33,
+    "valid_till": "12/31/2027",
+    "app_no": "173085"
+  },
+  {
+    "model": "CS-HU12AKYD/CU-HU12AKYD",
+    "star_rating": 4,
+    "ton": 0.97,
+    "iseer": 5.1,
+    "annual_kwh": 516.33,
+    "valid_till": "12/31/2027",
+    "app_no": "173085"
+  },
+  {
+    "model": "CS-HU12AKYF/CU-HU12AKYF",
+    "star_rating": 4,
+    "ton": 0.97,
+    "iseer": 5.1,
+    "annual_kwh": 516.33,
+    "valid_till": "12/31/2027",
+    "app_no": "173085"
+  },
+  {
+    "model": "CS-EU18AKY3/CU-EU18AKY3",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.95,
+    "annual_kwh": 988.6,
+    "valid_till": "12/31/2027",
+    "app_no": "173145"
+  },
+  {
+    "model": "CS-EU18AKY3D/CU-EU18AKY3D",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.95,
+    "annual_kwh": 988.6,
+    "valid_till": "12/31/2027",
+    "app_no": "173145"
+  },
+  {
+    "model": "CS-EU18AKY3F/CU-EU18AKY3F",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 3.95,
+    "annual_kwh": 988.6,
+    "valid_till": "12/31/2027",
+    "app_no": "173145"
+  },
+  {
+    "model": "CW-XN185AG",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 3.6,
+    "annual_kwh": 1086.32,
+    "valid_till": "12/31/2029",
+    "app_no": "173311"
+  },
+  {
+    "model": "CW-XN185AM",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 3.6,
+    "annual_kwh": 1086.32,
+    "valid_till": "12/31/2029",
+    "app_no": "173311"
+  },
+  {
+    "model": "CW-XN185AR",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 3.6,
+    "annual_kwh": 1086.32,
+    "valid_till": "12/31/2029",
+    "app_no": "173311"
+  },
+  {
+    "model": "CW-LN183AG",
+    "star_rating": 2,
+    "ton": 1.39,
+    "iseer": 3.2,
+    "annual_kwh": 1184.66,
+    "valid_till": "12/31/2029",
+    "app_no": "173350"
+  },
+  {
+    "model": "CW-LN183AM",
+    "star_rating": 2,
+    "ton": 1.39,
+    "iseer": 3.2,
+    "annual_kwh": 1184.66,
+    "valid_till": "12/31/2029",
+    "app_no": "173350"
+  },
+  {
+    "model": "CW-LN183AR",
+    "star_rating": 2,
+    "ton": 1.39,
+    "iseer": 3.2,
+    "annual_kwh": 1184.66,
+    "valid_till": "12/31/2029",
+    "app_no": "173350"
+  },
+  {
+    "model": "CS-EU24AKY5/CU-EU24AKY5",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.1,
+    "annual_kwh": 926.31,
+    "valid_till": "12/31/2027",
+    "app_no": "173352"
+  },
+  {
+    "model": "CS-EU24AKY5D/CU-EU24AKY5D",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.1,
+    "annual_kwh": 926.31,
+    "valid_till": "12/31/2027",
+    "app_no": "173352"
+  },
+  {
+    "model": "CS-EU24AKY5F/CU-EU24AKY5F",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.1,
+    "annual_kwh": 926.31,
+    "valid_till": "12/31/2027",
+    "app_no": "173352"
+  },
+  {
+    "model": "CS-EU24AKY5FM/CU-EU24AKY5FM",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.1,
+    "annual_kwh": 926.31,
+    "valid_till": "12/31/2027",
+    "app_no": "173352"
+  },
+  {
+    "model": "CS-EU24AKY5M/CU-EU24AKY5M",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.1,
+    "annual_kwh": 926.31,
+    "valid_till": "12/31/2027",
+    "app_no": "173352"
+  },
+  {
+    "model": "CS-HU18AKY/CU-HU18AKY",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "173926"
+  },
+  {
+    "model": "CS-HU18AKYD/CU-HU18AKYD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "173926"
+  },
+  {
+    "model": "CS-HU18AKYF/CU-HU18AKYF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "173926"
+  },
+  {
+    "model": "CS-VU18AKY/CU-VU18AKY",
+    "star_rating": 5,
+    "ton": 1.42,
+    "iseer": 5.85,
+    "annual_kwh": 661.44,
+    "valid_till": "12/31/2027",
+    "app_no": "174016"
+  },
+  {
+    "model": "CS-VU18AKYD/CU-VU18AKYD",
+    "star_rating": 5,
+    "ton": 1.42,
+    "iseer": 5.85,
+    "annual_kwh": 661.44,
+    "valid_till": "12/31/2027",
+    "app_no": "174016"
+  },
+  {
+    "model": "CS-VU18AKYF/CU-VU18AKYF",
+    "star_rating": 5,
+    "ton": 1.42,
+    "iseer": 5.85,
+    "annual_kwh": 661.44,
+    "valid_till": "12/31/2027",
+    "app_no": "174016"
+  },
+  {
+    "model": "S-24PBB8H5YB/U-24PRY8H5Y",
+    "star_rating": 2,
+    "ton": 1.93,
+    "iseer": 4.09,
+    "annual_kwh": 1285.85,
+    "valid_till": "12/31/2027",
+    "app_no": "174069"
+  },
+  {
+    "model": "CS-LU18AKY/CU-LU18AKY",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 3.95,
+    "annual_kwh": 940.69,
+    "valid_till": "12/31/2027",
+    "app_no": "174370"
+  },
+  {
+    "model": "CS-LU18AKYD/CU-LU18AKYD",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 3.95,
+    "annual_kwh": 940.69,
+    "valid_till": "12/31/2027",
+    "app_no": "174370"
+  },
+  {
+    "model": "CS-LU18AKYF/CU-LU18AKYF",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 3.95,
+    "annual_kwh": 940.69,
+    "valid_till": "12/31/2027",
+    "app_no": "174370"
+  },
+  {
+    "model": "CS-RU18AKY-1/CU-RU18AKY-1",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 3.95,
+    "annual_kwh": 940.69,
+    "valid_till": "12/31/2027",
+    "app_no": "174370"
+  },
+  {
+    "model": "CS-KZ18AKYDSR/CU-KZ18AKYDSR",
+    "star_rating": 3,
+    "ton": 1.46,
+    "iseer": 4.5,
+    "annual_kwh": 885.04,
+    "valid_till": "12/31/2027",
+    "app_no": "175048"
+  },
+  {
+    "model": "CS-KZ18AKYFSR/CU-KZ18AKYFSR",
+    "star_rating": 3,
+    "ton": 1.46,
+    "iseer": 4.5,
+    "annual_kwh": 885.04,
+    "valid_till": "12/31/2027",
+    "app_no": "175048"
+  },
+  {
+    "model": "CS-KZ18AKYSR/CU-KZ18AKYSR",
+    "star_rating": 3,
+    "ton": 1.46,
+    "iseer": 4.5,
+    "annual_kwh": 885.04,
+    "valid_till": "12/31/2027",
+    "app_no": "175048"
+  },
+  {
+    "model": "CS-RU18AKY-2/CU-RU18AKY-2",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 3.95,
+    "annual_kwh": 940.69,
+    "valid_till": "12/31/2027",
+    "app_no": "175701"
+  },
+  {
+    "model": "CS-RU18AKYF-2/CU-RU18AKYF-2",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 3.95,
+    "annual_kwh": 940.69,
+    "valid_till": "12/31/2027",
+    "app_no": "175701"
+  },
+  {
+    "model": "CS-NU18ZKY5A/CU-NU18ZKY5A",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "175971"
+  },
+  {
+    "model": "CS-NU18ZKY5WA/CU-NU18ZKY5WA",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "175971"
+  },
+  {
+    "model": "CS-NU18ZKY5WD/CU-NU18ZKY5WD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.1,
+    "annual_kwh": 774.19,
+    "valid_till": "12/31/2027",
+    "app_no": "175971"
+  },
+  {
+    "model": "CS-EU18AKY5A/CU-EU18AKY5A",
+    "star_rating": 4,
+    "ton": 1.5,
+    "iseer": 5.2,
+    "annual_kwh": 785.39,
+    "valid_till": "12/31/2027",
+    "app_no": "176305"
+  },
+  {
+    "model": "CS-EU18AKY5AD/CU-EU18AKY5AD",
+    "star_rating": 4,
+    "ton": 1.5,
+    "iseer": 5.2,
+    "annual_kwh": 785.39,
+    "valid_till": "12/31/2027",
+    "app_no": "176305"
+  },
+  {
+    "model": "CS-EU18AKY5AF/CU-EU18AKY5AF",
+    "star_rating": 4,
+    "ton": 1.5,
+    "iseer": 5.2,
+    "annual_kwh": 785.39,
+    "valid_till": "12/31/2027",
+    "app_no": "176305"
+  },
+  {
+    "model": "CS-EU18AKY5AM/CU-EU18AKY5AM",
+    "star_rating": 4,
+    "ton": 1.5,
+    "iseer": 5.2,
+    "annual_kwh": 785.39,
+    "valid_till": "12/31/2027",
+    "app_no": "176305"
+  },
+  {
+    "model": "S-24PUY8H5YD/U-24PZY8H5Y",
+    "star_rating": 3,
+    "ton": 1.85,
+    "iseer": 4.7,
+    "annual_kwh": 1070.16,
+    "valid_till": "12/31/2027",
+    "app_no": "177599"
+  },
+  {
+    "model": "S-18PUY8H5YD/U-18PZY8H5Y",
+    "star_rating": 4,
+    "ton": 1.5,
+    "iseer": 5.1,
+    "annual_kwh": 800.12,
+    "valid_till": "12/31/2027",
+    "app_no": "177602"
+  },
+  {
+    "model": "CS-SU18AKY3W/CU-SU18AKY3W",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 977.16,
+    "valid_till": "12/31/2027",
+    "app_no": "179677"
+  },
+  {
+    "model": "CS-SU18AKY3WD/CU-SU18AKY3WD",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 977.16,
+    "valid_till": "12/31/2027",
+    "app_no": "179677"
+  },
+  {
+    "model": "CS-SU18AKY3WF/CU-SU18AKY3WF",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 977.16,
+    "valid_till": "12/31/2027",
+    "app_no": "179677"
+  },
+  {
+    "model": "CS-SU18AKY3WX/CU-SU18AKY3WX",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 986.72,
+    "valid_till": "12/31/2027",
+    "app_no": "179684"
+  },
+  {
+    "model": "CS-SU18AKY3WXD/CU-SU18AKY3WXD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 986.72,
+    "valid_till": "12/31/2027",
+    "app_no": "179684"
+  },
+  {
+    "model": "CS-SU18AKY3WXF/CU-SU18AKY3WXF",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 986.72,
+    "valid_till": "12/31/2027",
+    "app_no": "179684"
+  },
+  {
+    "model": "CS-RU18BKY/CU-RU18BKY",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.68,
+    "valid_till": "12/31/2027",
+    "app_no": "179938"
+  },
+  {
+    "model": "CS-RU18BKYD/CU-RU18BKYD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.68,
+    "valid_till": "12/31/2027",
+    "app_no": "179938"
+  },
+  {
+    "model": "CS-RU18BKYF/CU-RU18BKYF",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.68,
+    "valid_till": "12/31/2027",
+    "app_no": "179938"
+  },
+  {
+    "model": "CS-AU18BKY/CU-AU18BKY",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.11,
+    "valid_till": "12/31/2027",
+    "app_no": "179947"
+  },
+  {
+    "model": "CS-AU18BKYF/CU-AU18BKYF",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.11,
+    "valid_till": "12/31/2027",
+    "app_no": "179947"
+  },
+  {
+    "model": "CS-AU18BKYFD/CU-AU18BKYFD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.11,
+    "valid_till": "12/31/2027",
+    "app_no": "179947"
+  },
+  {
+    "model": "CS-WU18BKYFM/CU-WU18BKYFM",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.11,
+    "valid_till": "12/31/2027",
+    "app_no": "179947"
+  },
+  {
+    "model": "CS-WU18BKYFMD/CU-WU18BKYFMD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.11,
+    "valid_till": "12/31/2027",
+    "app_no": "179947"
+  },
+  {
+    "model": "CS-WU18BKYM/CU-WU18BKYM",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.11,
+    "valid_till": "12/31/2027",
+    "app_no": "179947"
+  },
+  {
+    "model": "CS-NU18AKY5WX/CU-NU18AKY5WX",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "179949"
+  },
+  {
+    "model": "CS-NU18AKY5WXD/CU-NU18AKY5WXD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "179949"
+  },
+  {
+    "model": "CS-NU18AKY5WXF/CU-NU18AKY5WXF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "179949"
+  },
+  {
+    "model": "CS-SU18AKY3T/CU-SU18AKY3T",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 977.59,
+    "valid_till": "12/31/2027",
+    "app_no": "180072"
+  },
+  {
+    "model": "CS-SU18AKY3TD/CU-SU18AKY3TD",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 977.59,
+    "valid_till": "12/31/2027",
+    "app_no": "180072"
+  },
+  {
+    "model": "CS-SU17AKY3T/CU-SU17AKY3T",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 4.0,
+    "annual_kwh": 929.59,
+    "valid_till": "12/31/2027",
+    "app_no": "180077"
+  },
+  {
+    "model": "CS-SU18AKY3T-1 /CU-SU18AKY3T-1",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 4.0,
+    "annual_kwh": 929.59,
+    "valid_till": "12/31/2027",
+    "app_no": "180077"
+  },
+  {
+    "model": "CS-SU18AKY3TK/CU-SU18AKY3TK",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 4.0,
+    "annual_kwh": 929.59,
+    "valid_till": "12/31/2027",
+    "app_no": "180077"
+  },
+  {
+    "model": "CS-SU18AKY3TKD/CU-SU18AKY3TKD",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 4.0,
+    "annual_kwh": 929.59,
+    "valid_till": "12/31/2027",
+    "app_no": "180077"
+  },
+  {
+    "model": "CS-NU12AKY4D/CU-NU12AKY4D",
+    "star_rating": 3,
+    "ton": 1.0,
+    "iseer": 4.6,
+    "annual_kwh": 589.45,
+    "valid_till": "12/31/2027",
+    "app_no": "180083"
+  },
+  {
+    "model": "CS-NU12AKY4F/CU-NU12AKY4F",
+    "star_rating": 3,
+    "ton": 1.0,
+    "iseer": 4.6,
+    "annual_kwh": 589.45,
+    "valid_till": "12/31/2027",
+    "app_no": "180083"
+  },
+  {
+    "model": "CS-NU12AKY4W/CU-NU12AKY4W",
+    "star_rating": 3,
+    "ton": 1.0,
+    "iseer": 4.6,
+    "annual_kwh": 589.45,
+    "valid_till": "12/31/2027",
+    "app_no": "180083"
+  },
+  {
+    "model": "CS-RU12BKY/CU-RU12BKY",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "180289"
+  },
+  {
+    "model": "CS-RU12BKYD/CU-RU12BKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "180289"
+  },
+  {
+    "model": "CS-RU12BKYF/CU-RU12BKYF",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "180289"
+  },
+  {
+    "model": "CS-SU12AKY3/CU-SU12AKY3",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "180289"
+  },
+  {
+    "model": "CS-SU12AKY3T/CU-SU12AKY3T",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "180289"
+  },
+  {
+    "model": "CS-SU12AKY3TD/CU-SU12AKY3TD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "180289"
+  },
+  {
+    "model": "CS-RU17BKY/CU-RU17BKY",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 4.1,
+    "annual_kwh": 905.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180292"
+  },
+  {
+    "model": "CS-RU18BKY-1/CU-RU18BKY-1",
+    "star_rating": 2,
+    "ton": 1.36,
+    "iseer": 4.1,
+    "annual_kwh": 905.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180292"
+  },
+  {
+    "model": "CS-SU24AKY3D/CU-SU24AKY3D",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.0,
+    "annual_kwh": 1200.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180399"
+  },
+  {
+    "model": "CS-SU24AKY3F/CU-SU24AKY3F",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.0,
+    "annual_kwh": 1200.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180399"
+  },
+  {
+    "model": "CS-SU24AKY3W/CU-SU24AKY3W",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.0,
+    "annual_kwh": 1200.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180399"
+  },
+  {
+    "model": "CS-NU18AKY4WX/CU-NU18AKY4WX",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.6,
+    "annual_kwh": 858.17,
+    "valid_till": "12/31/2027",
+    "app_no": "180402"
+  },
+  {
+    "model": "CS-NU18AKY4WXD/CU-NU18AKY4WXD",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.6,
+    "annual_kwh": 858.17,
+    "valid_till": "12/31/2027",
+    "app_no": "180402"
+  },
+  {
+    "model": "CS-NU18AKY4WXF/CU-NU18AKY4WXF",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.6,
+    "annual_kwh": 858.17,
+    "valid_till": "12/31/2027",
+    "app_no": "180402"
+  },
+  {
+    "model": "CS-NU12AKY5D/CU-NU12AKY5D",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 524.08,
+    "valid_till": "12/31/2027",
+    "app_no": "180407"
+  },
+  {
+    "model": "CS-NU12AKY5F/CU-NU12AKY5F",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 524.08,
+    "valid_till": "12/31/2027",
+    "app_no": "180407"
+  },
+  {
+    "model": "CS-NU12AKY5W/CU-NU12AKY5W",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.1,
+    "annual_kwh": 524.08,
+    "valid_till": "12/31/2027",
+    "app_no": "180407"
+  },
+  {
+    "model": "CS-EU18BKY3X/CU-EU18BKY3X",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.7,
+    "valid_till": "12/31/2027",
+    "app_no": "180409"
+  },
+  {
+    "model": "CS-EU18BKY3XD/CU-EU18BKY3XD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.7,
+    "valid_till": "12/31/2027",
+    "app_no": "180409"
+  },
+  {
+    "model": "CS-EU18BKY3XF/CU-EU18BKY3XF",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.7,
+    "valid_till": "12/31/2027",
+    "app_no": "180409"
+  },
+  {
+    "model": "CS-EU18BKY3XFM/CU-EU18BKY3XFM",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.7,
+    "valid_till": "12/31/2027",
+    "app_no": "180409"
+  },
+  {
+    "model": "CS-YU18BKYXD/CU-YU18BKYXD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.0,
+    "annual_kwh": 987.7,
+    "valid_till": "12/31/2027",
+    "app_no": "180409"
+  },
+  {
+    "model": "CS-SU11AKY3T/CU-SU11AKY3T",
+    "star_rating": 2,
+    "ton": 0.9,
+    "iseer": 4.0,
+    "annual_kwh": 609.19,
+    "valid_till": "12/31/2027",
+    "app_no": "180418"
+  },
+  {
+    "model": "CS-SU11AKY3TD/CU-SU11AKY3TD",
+    "star_rating": 2,
+    "ton": 0.9,
+    "iseer": 4.0,
+    "annual_kwh": 609.19,
+    "valid_till": "12/31/2027",
+    "app_no": "180418"
+  },
+  {
+    "model": "CS-SU11AKY3TF/CU-SU11AKY3TF",
+    "star_rating": 2,
+    "ton": 0.9,
+    "iseer": 4.0,
+    "annual_kwh": 609.19,
+    "valid_till": "12/31/2027",
+    "app_no": "180418"
+  },
+  {
+    "model": "CS-EU12BKY5/CU-EU12BKY5",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "180420"
+  },
+  {
+    "model": "CS-EU12BKY5D/CU-EU12BKY5D",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "180420"
+  },
+  {
+    "model": "CS-EU12BKY5F/CU-EU12BKY5F",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "180420"
+  },
+  {
+    "model": "CS-EU12BKY5FM/CU-EU12BKY5FM",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "180420"
+  },
+  {
+    "model": "CS-AU12BKY/CU-AU12BKY",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.36,
+    "valid_till": "12/31/2027",
+    "app_no": "180567"
+  },
+  {
+    "model": "CS-AU12BKYD/CU-AU12BKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.36,
+    "valid_till": "12/31/2027",
+    "app_no": "180567"
+  },
+  {
+    "model": "CS-AU12BKYF/CU-AU12BKYF",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.36,
+    "valid_till": "12/31/2027",
+    "app_no": "180567"
+  },
+  {
+    "model": "CS-AU12BKYFM/CU-AU12BKYFM",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.36,
+    "valid_till": "12/31/2027",
+    "app_no": "180567"
+  },
+  {
+    "model": "CS-WU12BKY/CU-WU12BKY",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.36,
+    "valid_till": "12/31/2027",
+    "app_no": "180567"
+  },
+  {
+    "model": "CS-WU12BKYD/CU-WU12BKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.36,
+    "valid_till": "12/31/2027",
+    "app_no": "180567"
+  },
+  {
+    "model": "CS-WU12BKYF/CU-WU12BKYF",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.36,
+    "valid_till": "12/31/2027",
+    "app_no": "180567"
+  },
+  {
+    "model": "CS-WU12BKYFM/CU-WU12BKYFM",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.36,
+    "valid_till": "12/31/2027",
+    "app_no": "180567"
+  },
+  {
+    "model": "CS-NU24AKY4D/CU-NU24AKY4D",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.6,
+    "annual_kwh": 1042.48,
+    "valid_till": "12/31/2027",
+    "app_no": "180569"
+  },
+  {
+    "model": "CS-NU24AKY4F/CU-NU24AKY4F",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.6,
+    "annual_kwh": 1042.48,
+    "valid_till": "12/31/2027",
+    "app_no": "180569"
+  },
+  {
+    "model": "CS-NU24AKY4W/CU-NU24AKY4W",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.6,
+    "annual_kwh": 1042.48,
+    "valid_till": "12/31/2027",
+    "app_no": "180569"
+  },
+  {
+    "model": "CS-EU18BKY3/CU-EU18BKY3",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 976.65,
+    "valid_till": "12/31/2027",
+    "app_no": "180710"
+  },
+  {
+    "model": "CS-EU18BKY3D/CU-EU18BKY3D",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 976.65,
+    "valid_till": "12/31/2027",
+    "app_no": "180710"
+  },
+  {
+    "model": "CS-EU18BKY3F/CU-EU18BKY3F",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 976.65,
+    "valid_till": "12/31/2027",
+    "app_no": "180710"
+  },
+  {
+    "model": "CS-EU18BKY3FM/CU-EU18BKY3FM",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 976.65,
+    "valid_till": "12/31/2027",
+    "app_no": "180710"
+  },
+  {
+    "model": "CS-YU18BKYD/CU-YU18BKYD",
+    "star_rating": 2,
+    "ton": 1.44,
+    "iseer": 4.0,
+    "annual_kwh": 976.65,
+    "valid_till": "12/31/2027",
+    "app_no": "180710"
+  },
+  {
+    "model": "CS-EU24BKY3/CU-EU24BKY3",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.0,
+    "annual_kwh": 1200.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180722"
+  },
+  {
+    "model": "CS-EU24BKY3D/CU-EU24BKY3D",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.0,
+    "annual_kwh": 1200.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180722"
+  },
+  {
+    "model": "CS-EU24BKY3F/CU-EU24BKY3F",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.0,
+    "annual_kwh": 1200.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180722"
+  },
+  {
+    "model": "CS-EU24BKY3FM/CU-EU24BKY3FM",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.0,
+    "annual_kwh": 1200.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180722"
+  },
+  {
+    "model": "CS-YU24BKYD/CU-YU24BKYD",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.0,
+    "annual_kwh": 1200.23,
+    "valid_till": "12/31/2027",
+    "app_no": "180722"
+  },
+  {
+    "model": "CS-EU18BKY5X/CU-EU18BKY5X",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "180724"
+  },
+  {
+    "model": "CS-EU18BKY5XD/CU-EU18BKY5XD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "180724"
+  },
+  {
+    "model": "CS-EU18BKY5XF/CU-EU18BKY5XF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "180724"
+  },
+  {
+    "model": "CS-EU18BKY5XFM/CU-EU18BKY5XFM",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "180724"
+  },
+  {
+    "model": "CS-EU18BKY5XPM/CU-EU18BKY5XPM",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "180724"
+  },
+  {
+    "model": "CS-WU24BKY/CU-WU24BKY",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 4.0,
+    "annual_kwh": 1218.38,
+    "valid_till": "12/31/2027",
+    "app_no": "180725"
+  },
+  {
+    "model": "CS-WU24BKYD/CU-WU24BKYD",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 4.0,
+    "annual_kwh": 1218.38,
+    "valid_till": "12/31/2027",
+    "app_no": "180725"
+  },
+  {
+    "model": "CS-WU24BKYF/CU-WU24BKYF",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 4.0,
+    "annual_kwh": 1218.38,
+    "valid_till": "12/31/2027",
+    "app_no": "180725"
+  },
+  {
+    "model": "CS-WU24BKYFM/CU-WU24BKYFM",
+    "star_rating": 2,
+    "ton": 1.79,
+    "iseer": 4.0,
+    "annual_kwh": 1218.38,
+    "valid_till": "12/31/2027",
+    "app_no": "180725"
+  },
+  {
+    "model": "CS-EU12BKY3/CU-EU12BKY3",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "181033"
+  },
+  {
+    "model": "CS-EU12BKY3D/CU-EU12BKY3D",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "181033"
+  },
+  {
+    "model": "CS-EU12BKY3F/CU-EU12BKY3F",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "181033"
+  },
+  {
+    "model": "CS-EU12BKY3FM/CU-EU12BKY3FM",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "181033"
+  },
+  {
+    "model": "CS-SU12AKY3D/CU-SU12AKY3D",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "181033"
+  },
+  {
+    "model": "CS-SU12AKY3F/CU-SU12AKY3F",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "181033"
+  },
+  {
+    "model": "CS-SU12AKY3W/CU-SU12AKY3W",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "181033"
+  },
+  {
+    "model": "CS-YU12BKYD/CU-YU12BKYD",
+    "star_rating": 2,
+    "ton": 0.98,
+    "iseer": 4.0,
+    "annual_kwh": 667.91,
+    "valid_till": "12/31/2027",
+    "app_no": "181033"
+  },
+  {
+    "model": "CS-QU26BKY/CU-QU26BKY",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "181069"
+  },
+  {
+    "model": "CS-QU26BKYD/CU-QU26BKYD",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "181069"
+  },
+  {
+    "model": "CS-QU26BKYF/CU-QU26BKYF",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "181069"
+  },
+  {
+    "model": "CS-QU26BKYFM/CU-QU26BKYFM",
+    "star_rating": 3,
+    "ton": 2.23,
+    "iseer": 4.5,
+    "annual_kwh": 1351.04,
+    "valid_till": "12/31/2027",
+    "app_no": "181069"
+  },
+  {
+    "model": "CS-VU18BKY/CU-VU18BKY",
+    "star_rating": 5,
+    "ton": 1.42,
+    "iseer": 5.85,
+    "annual_kwh": 661.44,
+    "valid_till": "12/31/2027",
+    "app_no": "181071"
+  },
+  {
+    "model": "CS-VU18BKYD/CU-VU18BKYD",
+    "star_rating": 5,
+    "ton": 1.42,
+    "iseer": 5.85,
+    "annual_kwh": 661.44,
+    "valid_till": "12/31/2027",
+    "app_no": "181071"
+  },
+  {
+    "model": "CS-VU18BKYF/CU-VU18BKYF",
+    "star_rating": 5,
+    "ton": 1.42,
+    "iseer": 5.85,
+    "annual_kwh": 661.44,
+    "valid_till": "12/31/2027",
+    "app_no": "181071"
+  },
+  {
+    "model": "CS-VU18BKYFM/CU-VU18BKYFM",
+    "star_rating": 5,
+    "ton": 1.42,
+    "iseer": 5.85,
+    "annual_kwh": 661.44,
+    "valid_till": "12/31/2027",
+    "app_no": "181071"
+  },
+  {
+    "model": "CW-LN183BG",
+    "star_rating": 2,
+    "ton": 1.39,
+    "iseer": 3.2,
+    "annual_kwh": 1184.66,
+    "valid_till": "12/31/2029",
+    "app_no": "181088"
+  },
+  {
+    "model": "CW-LN183BM",
+    "star_rating": 2,
+    "ton": 1.39,
+    "iseer": 3.2,
+    "annual_kwh": 1184.66,
+    "valid_till": "12/31/2029",
+    "app_no": "181088"
+  },
+  {
+    "model": "CW-LN183BR",
+    "star_rating": 2,
+    "ton": 1.39,
+    "iseer": 3.2,
+    "annual_kwh": 1184.66,
+    "valid_till": "12/31/2029",
+    "app_no": "181088"
+  },
+  {
+    "model": "S-24PU8RY/U-24PU8R5Y",
+    "star_rating": 2,
+    "ton": 1.93,
+    "iseer": 4.25,
+    "annual_kwh": 1237.81,
+    "valid_till": "12/31/2027",
+    "app_no": "181346"
+  },
+  {
+    "model": "CW-XN185BGT",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 3.65,
+    "annual_kwh": 1071.89,
+    "valid_till": "12/31/2029",
+    "app_no": "182028"
+  },
+  {
+    "model": "CW-XN185BMT",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 3.65,
+    "annual_kwh": 1071.89,
+    "valid_till": "12/31/2029",
+    "app_no": "182028"
+  },
+  {
+    "model": "CW-XN185BRT",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 3.65,
+    "annual_kwh": 1071.89,
+    "valid_till": "12/31/2029",
+    "app_no": "182028"
+  },
+  {
+    "model": "CS-EZ18BKY/CU-EZ18BKY",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.25,
+    "annual_kwh": 928.57,
+    "valid_till": "12/31/2027",
+    "app_no": "182037"
+  },
+  {
+    "model": "CS-EZ18BKYD/CU-EZ18BKYD",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.25,
+    "annual_kwh": 928.57,
+    "valid_till": "12/31/2027",
+    "app_no": "182037"
+  },
+  {
+    "model": "CS-EZ18BKYF/CU-EZ18BKYF",
+    "star_rating": 2,
+    "ton": 1.45,
+    "iseer": 4.25,
+    "annual_kwh": 928.57,
+    "valid_till": "12/31/2027",
+    "app_no": "182037"
+  },
+  {
+    "model": "CS-EU24BKY5/CU-EU24BKY5",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "182039"
+  },
+  {
+    "model": "CS-EU24BKY5D/CU-EU24BKY5D",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "182039"
+  },
+  {
+    "model": "CS-EU24BKY5F/CU-EU24BKY5F",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "182039"
+  },
+  {
+    "model": "CS-EU24BKY5FM/CU-EU24BKY5FM",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "182039"
+  },
+  {
+    "model": "CS-NU24AKY5D/CU-NU24AKY5D",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "182039"
+  },
+  {
+    "model": "CS-NU24AKY5F/CU-NU24AKY5F",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "182039"
+  },
+  {
+    "model": "CS-NU24AKY5W/CU-NU24AKY5W",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "182039"
+  },
+  {
+    "model": "CS-EZ18BKYX/CU-EZ18BKYX",
+    "star_rating": 2,
+    "ton": 1.48,
+    "iseer": 4.25,
+    "annual_kwh": 948.16,
+    "valid_till": "12/31/2027",
+    "app_no": "182040"
+  },
+  {
+    "model": "CS-EZ18BKYXD/CU-EZ18BKYXD",
+    "star_rating": 2,
+    "ton": 1.48,
+    "iseer": 4.25,
+    "annual_kwh": 948.16,
+    "valid_till": "12/31/2027",
+    "app_no": "182040"
+  },
+  {
+    "model": "CS-EZ18BKYXF/CU-EZ18BKYXF",
+    "star_rating": 2,
+    "ton": 1.48,
+    "iseer": 4.25,
+    "annual_kwh": 948.16,
+    "valid_till": "12/31/2027",
+    "app_no": "182040"
+  },
+  {
+    "model": "CS-EZ18BKYXFM/CU-EZ18BKYXFM",
+    "star_rating": 2,
+    "ton": 1.48,
+    "iseer": 4.25,
+    "annual_kwh": 948.16,
+    "valid_till": "12/31/2027",
+    "app_no": "182040"
+  },
+  {
+    "model": "CS-EZ24BKY/CU-EZ24BKY",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.1,
+    "annual_kwh": 1170.64,
+    "valid_till": "12/31/2027",
+    "app_no": "182086"
+  },
+  {
+    "model": "CS-EZ24BKYD/CU-EZ24BKYD",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.1,
+    "annual_kwh": 1170.64,
+    "valid_till": "12/31/2027",
+    "app_no": "182086"
+  },
+  {
+    "model": "CS-EZ24BKYF/CU-EZ24BKYF",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.1,
+    "annual_kwh": 1170.64,
+    "valid_till": "12/31/2027",
+    "app_no": "182086"
+  },
+  {
+    "model": "CS-EZ24BKYFM/CU-EZ24BKYFM",
+    "star_rating": 2,
+    "ton": 1.76,
+    "iseer": 4.1,
+    "annual_kwh": 1170.64,
+    "valid_till": "12/31/2027",
+    "app_no": "182086"
+  },
+  {
+    "model": "S-18PU8RY/U-18PU8R5Y",
+    "star_rating": 2,
+    "ton": 1.52,
+    "iseer": 4.2,
+    "annual_kwh": 987.11,
+    "valid_till": "12/31/2027",
+    "app_no": "183045"
+  },
+  {
+    "model": "CS-HU12BKY/CU-HU12BKY",
+    "star_rating": 4,
+    "ton": 0.97,
+    "iseer": 5.1,
+    "annual_kwh": 516.33,
+    "valid_till": "12/31/2027",
+    "app_no": "183048"
+  },
+  {
+    "model": "CS-HU12BKYD/CU-HU12BKYD",
+    "star_rating": 4,
+    "ton": 0.97,
+    "iseer": 5.1,
+    "annual_kwh": 516.33,
+    "valid_till": "12/31/2027",
+    "app_no": "183048"
+  },
+  {
+    "model": "CS-HU12BKYF/CU-HU12BKYF",
+    "star_rating": 4,
+    "ton": 0.97,
+    "iseer": 5.1,
+    "annual_kwh": 516.33,
+    "valid_till": "12/31/2027",
+    "app_no": "183048"
+  },
+  {
+    "model": "CS-HU12BKYFM/CU-HU12BKYFM",
+    "star_rating": 4,
+    "ton": 0.97,
+    "iseer": 5.1,
+    "annual_kwh": 516.33,
+    "valid_till": "12/31/2027",
+    "app_no": "183048"
+  },
+  {
+    "model": "CS-HU18BKY/CU-HU18BKY",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 5.15,
+    "annual_kwh": 760.47,
+    "valid_till": "12/31/2027",
+    "app_no": "183444"
+  },
+  {
+    "model": "CS-HU18BKYD/CU-HU18BKYD",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 5.15,
+    "annual_kwh": 760.47,
+    "valid_till": "12/31/2027",
+    "app_no": "183444"
+  },
+  {
+    "model": "CS-HU18BKYF/CU-HU18BKYF",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 5.15,
+    "annual_kwh": 760.47,
+    "valid_till": "12/31/2027",
+    "app_no": "183444"
+  },
+  {
+    "model": "CS-HU18BKYFM/CU-HU18BKYFM",
+    "star_rating": 4,
+    "ton": 1.44,
+    "iseer": 5.15,
+    "annual_kwh": 760.47,
+    "valid_till": "12/31/2027",
+    "app_no": "183444"
+  },
+  {
+    "model": "CS-EZ12BKY/CU-EZ12BKY",
+    "star_rating": 2,
+    "ton": 1.01,
+    "iseer": 4.25,
+    "annual_kwh": 646.12,
+    "valid_till": "12/31/2027",
+    "app_no": "183445"
+  },
+  {
+    "model": "CS-EZ12BKYD/CU-EZ12BKYD",
+    "star_rating": 2,
+    "ton": 1.01,
+    "iseer": 4.25,
+    "annual_kwh": 646.12,
+    "valid_till": "12/31/2027",
+    "app_no": "183445"
+  },
+  {
+    "model": "CS-EZ12BKYF/CU-EZ12BKYF",
+    "star_rating": 2,
+    "ton": 1.01,
+    "iseer": 4.25,
+    "annual_kwh": 646.12,
+    "valid_till": "12/31/2027",
+    "app_no": "183445"
+  },
+  {
+    "model": "CS-EZ12CKY/CU-EZ12CKY",
+    "star_rating": 3,
+    "ton": 0.94,
+    "iseer": 4.5,
+    "annual_kwh": 567.6,
+    "valid_till": "12/31/2027",
+    "app_no": "187282"
+  },
+  {
+    "model": "CS-EZ12CKYD/CU-EZ12CKYD",
+    "star_rating": 3,
+    "ton": 0.94,
+    "iseer": 4.5,
+    "annual_kwh": 567.6,
+    "valid_till": "12/31/2027",
+    "app_no": "187282"
+  },
+  {
+    "model": "CS-EZ12CKYF/CU-EZ12CKYF",
+    "star_rating": 3,
+    "ton": 0.94,
+    "iseer": 4.5,
+    "annual_kwh": 567.6,
+    "valid_till": "12/31/2027",
+    "app_no": "187282"
+  },
+  {
+    "model": "CS-EZ18CKY/CU-EZ18CKY",
+    "star_rating": 3,
+    "ton": 1.42,
+    "iseer": 4.5,
+    "annual_kwh": 860.18,
+    "valid_till": "12/31/2027",
+    "app_no": "187283"
+  },
+  {
+    "model": "CS-EZ18CKYD/CU-EZ18CKYD",
+    "star_rating": 3,
+    "ton": 1.42,
+    "iseer": 4.5,
+    "annual_kwh": 860.18,
+    "valid_till": "12/31/2027",
+    "app_no": "187283"
+  },
+  {
+    "model": "CS-EZ18CKYF/CU-EZ18CKYF",
+    "star_rating": 3,
+    "ton": 1.42,
+    "iseer": 4.5,
+    "annual_kwh": 860.18,
+    "valid_till": "12/31/2027",
+    "app_no": "187283"
+  },
+  {
+    "model": "CS-EU12CKY3/CU-EU12CKY3",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.89,
+    "valid_till": "12/31/2027",
+    "app_no": "187285"
+  },
+  {
+    "model": "CS-EU12CKY3D/CU-EU12CKY3D",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.89,
+    "valid_till": "12/31/2027",
+    "app_no": "187285"
+  },
+  {
+    "model": "CS-EU12CKY3F/CU-EU12CKY3F",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.89,
+    "valid_till": "12/31/2027",
+    "app_no": "187285"
+  },
+  {
+    "model": "CS-EU12CKY3FM/CU-EU12CKY3FM",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.89,
+    "valid_till": "12/31/2027",
+    "app_no": "187285"
+  },
+  {
+    "model": "CS-SU12BKY3D/CU-SU12BKY3D",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.89,
+    "valid_till": "12/31/2027",
+    "app_no": "187285"
+  },
+  {
+    "model": "CS-SU12BKY3F/CU-SU12BKY3F",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.89,
+    "valid_till": "12/31/2027",
+    "app_no": "187285"
+  },
+  {
+    "model": "CS-SU12BKY3W/CU-SU12BKY3W",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.89,
+    "valid_till": "12/31/2027",
+    "app_no": "187285"
+  },
+  {
+    "model": "CS-YU12CKYD/CU-YU12CKYD",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.89,
+    "valid_till": "12/31/2027",
+    "app_no": "187285"
+  },
+  {
+    "model": "CS-EU18CKY3FM/CU-EU18CKY3FM",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.74,
+    "valid_till": "12/31/2027",
+    "app_no": "187286"
+  },
+  {
+    "model": "CS-SU18BKY3W/CU-SU18BKY3W",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.74,
+    "valid_till": "12/31/2027",
+    "app_no": "187286"
+  },
+  {
+    "model": "CS-SU18BKY3WD /CU-SU18BKY3WD",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.74,
+    "valid_till": "12/31/2027",
+    "app_no": "187286"
+  },
+  {
+    "model": "CS-SU18BKY3WF/CU-SU18BKY3WF",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.74,
+    "valid_till": "12/31/2027",
+    "app_no": "187286"
+  },
+  {
+    "model": "CS-YU18CKYD/CU-YU18CKYD",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.74,
+    "valid_till": "12/31/2027",
+    "app_no": "187286"
+  },
+  {
+    "model": "CS-EU18CKY3X/CU-EU18CKY3X",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.45,
+    "valid_till": "12/31/2027",
+    "app_no": "187287"
+  },
+  {
+    "model": "CS-EU18CKY3XD/CU-EU18CKY3XD",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.45,
+    "valid_till": "12/31/2027",
+    "app_no": "187287"
+  },
+  {
+    "model": "CS-EU18CKY3XF/CU-EU18CKY3XF",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.45,
+    "valid_till": "12/31/2027",
+    "app_no": "187287"
+  },
+  {
+    "model": "CS-EU18CKY3XFH/CU-EU18CKY3XFH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.45,
+    "valid_till": "12/31/2027",
+    "app_no": "187287"
+  },
+  {
+    "model": "CS-EU18CKY3XFMH/CU-EU18CKY3XFMH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.45,
+    "valid_till": "12/31/2027",
+    "app_no": "187287"
+  },
+  {
+    "model": "CS-SU18BKY3WXH/CU-SU18BKY3WXH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.45,
+    "valid_till": "12/31/2027",
+    "app_no": "187287"
+  },
+  {
+    "model": "CS-YU18CKYXD/CU-YU18CKYXD",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.45,
+    "valid_till": "12/31/2027",
+    "app_no": "187287"
+  },
+  {
+    "model": "CS-YU18CKYXDH/CU-YU18CKYXDH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.45,
+    "valid_till": "12/31/2027",
+    "app_no": "187287"
+  },
+  {
+    "model": "CS-RU12CKY/CU-RU12CKY",
+    "star_rating": 3,
+    "ton": 0.95,
+    "iseer": 4.5,
+    "annual_kwh": 576.31,
+    "valid_till": "12/31/2027",
+    "app_no": "187288"
+  },
+  {
+    "model": "CS-RU12CKYD/CU-RU12CKYD",
+    "star_rating": 3,
+    "ton": 0.95,
+    "iseer": 4.5,
+    "annual_kwh": 576.31,
+    "valid_till": "12/31/2027",
+    "app_no": "187288"
+  },
+  {
+    "model": "CS-RU12CKYF/CU-RU12CKYF",
+    "star_rating": 3,
+    "ton": 0.95,
+    "iseer": 4.5,
+    "annual_kwh": 576.31,
+    "valid_till": "12/31/2027",
+    "app_no": "187288"
+  },
+  {
+    "model": "CS-SU12BKY3/CU-SU12BKY3",
+    "star_rating": 3,
+    "ton": 0.95,
+    "iseer": 4.5,
+    "annual_kwh": 576.31,
+    "valid_till": "12/31/2027",
+    "app_no": "187288"
+  },
+  {
+    "model": "CS-SU12BKY3T/CU-SU12BKY3T",
+    "star_rating": 3,
+    "ton": 0.95,
+    "iseer": 4.5,
+    "annual_kwh": 576.31,
+    "valid_till": "12/31/2027",
+    "app_no": "187288"
+  },
+  {
+    "model": "CS-SU12BKY3TD/CU-SU12BKY3TD",
+    "star_rating": 3,
+    "ton": 0.95,
+    "iseer": 4.5,
+    "annual_kwh": 576.31,
+    "valid_till": "12/31/2027",
+    "app_no": "187288"
+  },
+  {
+    "model": "CS-EZ18CKYX/CU-EZ18CKYX",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.71,
+    "valid_till": "12/31/2027",
+    "app_no": "187298"
+  },
+  {
+    "model": "CS-EZ18CKYXD/CU-EZ18CKYXD",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.71,
+    "valid_till": "12/31/2027",
+    "app_no": "187298"
+  },
+  {
+    "model": "CS-EZ18CKYXF/CU-EZ18CKYXF",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.71,
+    "valid_till": "12/31/2027",
+    "app_no": "187298"
+  },
+  {
+    "model": "CS-EZ18CKYXFM/CU-EZ18CKYXFM",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.71,
+    "valid_till": "12/31/2027",
+    "app_no": "187298"
+  },
+  {
+    "model": "CS-RU18CKY/CU-RU18CKY",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.07,
+    "valid_till": "12/31/2027",
+    "app_no": "187579"
+  },
+  {
+    "model": "CS-RU18CKYD/CU-RU18CKYD",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.07,
+    "valid_till": "12/31/2027",
+    "app_no": "187579"
+  },
+  {
+    "model": "CS-RU18CKYF/CU-RU18CKYF",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.07,
+    "valid_till": "12/31/2027",
+    "app_no": "187579"
+  },
+  {
+    "model": "CS-SU18BKY3T/CU-SU18BKY3T",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.07,
+    "valid_till": "12/31/2027",
+    "app_no": "187579"
+  },
+  {
+    "model": "CS-SU18BKY3TD/CU-SU18BKY3TD",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.07,
+    "valid_till": "12/31/2027",
+    "app_no": "187579"
+  },
+  {
+    "model": "CS-EU18CKY5X/CU-EU18CKY5X",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.01,
+    "valid_till": "12/31/2027",
+    "app_no": "187586"
+  },
+  {
+    "model": "CS-EU18CKY5XD/CU-EU18CKY5XD",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.01,
+    "valid_till": "12/31/2027",
+    "app_no": "187586"
+  },
+  {
+    "model": "CS-EU18CKY5XF/CU-EU18CKY5XF",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.01,
+    "valid_till": "12/31/2027",
+    "app_no": "187586"
+  },
+  {
+    "model": "CS-EU18CKY5XFM-G/CU-EU18CKY5XFM-G",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.01,
+    "valid_till": "12/31/2027",
+    "app_no": "187586"
+  },
+  {
+    "model": "CS-EU18CKY5XFM-S/CU-EU18CKY5XFM-S",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.01,
+    "valid_till": "12/31/2027",
+    "app_no": "187586"
+  },
+  {
+    "model": "CS-EU18CKY5XFM/CU-EU18CKY5XFM",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.01,
+    "valid_till": "12/31/2027",
+    "app_no": "187586"
+  },
+  {
+    "model": "CS-NU18BKY5WX/CU-NU18BKY5WX",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.01,
+    "valid_till": "12/31/2027",
+    "app_no": "187586"
+  },
+  {
+    "model": "CS-NU18BKY5WXD/CU-NU18BKY5WXD",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.01,
+    "valid_till": "12/31/2027",
+    "app_no": "187586"
+  },
+  {
+    "model": "CS-NU18BKY5WXF/CU-NU18BKY5WXF",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.01,
+    "valid_till": "12/31/2027",
+    "app_no": "187586"
+  },
+  {
+    "model": "CS-RU18CKY-1/CU-RU18CKY-1",
+    "star_rating": 3,
+    "ton": 1.36,
+    "iseer": 4.5,
+    "annual_kwh": 826.2,
+    "valid_till": "12/31/2027",
+    "app_no": "187755"
+  },
+  {
+    "model": "CS-EU18CKY5XFMH/CU-EU18CKY5XFMH",
+    "star_rating": 5,
+    "ton": 1.5,
+    "iseer": 5.8,
+    "annual_kwh": 704.45,
+    "valid_till": "12/31/2027",
+    "app_no": "188269"
+  },
+  {
+    "model": "CS-HU18CKY5X/CU-HU18CKY5X",
+    "star_rating": 5,
+    "ton": 1.5,
+    "iseer": 5.8,
+    "annual_kwh": 704.45,
+    "valid_till": "12/31/2027",
+    "app_no": "188269"
+  },
+  {
+    "model": "CS-HU18CKY5XD/CU-HU18CKY5XD",
+    "star_rating": 5,
+    "ton": 1.5,
+    "iseer": 5.8,
+    "annual_kwh": 704.45,
+    "valid_till": "12/31/2027",
+    "app_no": "188269"
+  },
+  {
+    "model": "CS-HU18CKY5XF/CU-HU18CKY5XF",
+    "star_rating": 5,
+    "ton": 1.5,
+    "iseer": 5.8,
+    "annual_kwh": 704.45,
+    "valid_till": "12/31/2027",
+    "app_no": "188269"
+  },
+  {
+    "model": "CS-HU18CKY5XFMH-P/CU-HU18CKY5XFMH-P",
+    "star_rating": 5,
+    "ton": 1.5,
+    "iseer": 5.8,
+    "annual_kwh": 704.45,
+    "valid_till": "12/31/2027",
+    "app_no": "188269"
+  },
+  {
+    "model": "CS-NU18BKY5WXH/CU-NU18BKY5WXH",
+    "star_rating": 5,
+    "ton": 1.5,
+    "iseer": 5.8,
+    "annual_kwh": 704.45,
+    "valid_till": "12/31/2027",
+    "app_no": "188269"
+  },
+  {
+    "model": "CS-EU12CKY5/CU-EU12CKY5",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-EU12CKY5D/CU-EU12CKY5D",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-EU12CKY5F/CU-EU12CKY5F",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-EU12CKY5FM/CU-EU12CKY5FM",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-HU12CKY5/CU-HU12CKY5",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-HU12CKY5D/CU-HU12CKY5D",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-HU12CKY5F/CU-HU12CKY5F",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-HU12CKY5FM-P/CU-HU12CKY5FM-P",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-NU12BKY5D/CU-NU12BKY5D",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-NU12BKY5F/CU-NU12BKY5F",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-NU12BKY5W/CU-NU12BKY5W",
+    "star_rating": 5,
+    "ton": 0.98,
+    "iseer": 5.8,
+    "annual_kwh": 460.65,
+    "valid_till": "12/31/2027",
+    "app_no": "188270"
+  },
+  {
+    "model": "CS-EU12CKY4/CU-EU12CKY4",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "188272"
+  },
+  {
+    "model": "CS-EU12CKY4D/CU-EU12CKY4D",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "188272"
+  },
+  {
+    "model": "CS-EU12CKY4F/CU-EU12CKY4F",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "188272"
+  },
+  {
+    "model": "CS-EU12CKY4FM/CU-EU12CKY4FM",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "188272"
+  },
+  {
+    "model": "CS-NU12BKY4D/CU-NU12BKY4D",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "188272"
+  },
+  {
+    "model": "CS-NU12BKY4F/CU-NU12BKY4F",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "188272"
+  },
+  {
+    "model": "CS-NU12BKY4W/CU-NU12BKY4W",
+    "star_rating": 4,
+    "ton": 0.98,
+    "iseer": 5.2,
+    "annual_kwh": 514.0,
+    "valid_till": "12/31/2027",
+    "app_no": "188272"
+  },
+  {
+    "model": "CS-EU18CKY4X/CU-EU18CKY4X",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-EU18CKY4XD/CU-EU18CKY4XD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-EU18CKY4XF/CU-EU18CKY4XF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-EU18CKY4XFM/CU-EU18CKY4XFM",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-NU18BKY4WX/CU-NU18BKY4WX",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-NU18BKY4WXD/CU-NU18BKY4WXD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-NU18BKY4WXF/CU-NU18BKY4WXF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-WU18CKY4X/CU-WU18CKY4X",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-WU18CKY4XD/CU-WU18CKY4XD",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-WU18CKY4XF/CU-WU18CKY4XF",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-WU18CKY4XFM-P/CU-WU18CKY4XFM-P",
+    "star_rating": 4,
+    "ton": 1.45,
+    "iseer": 5.2,
+    "annual_kwh": 759.55,
+    "valid_till": "12/31/2027",
+    "app_no": "188274"
+  },
+  {
+    "model": "CS-EU24CKY4/CU-EU24CKY4",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "188278"
+  },
+  {
+    "model": "CS-EU24CKY4D/CU-EU24CKY4D",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "188278"
+  },
+  {
+    "model": "CS-EU24CKY4F/CU-EU24CKY4F",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "188278"
+  },
+  {
+    "model": "CS-EU24CKY4FM/CU-EU24CKY4FM",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "188278"
+  },
+  {
+    "model": "CS-NU24BKY4D/CU-NU24BKY4D",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "188278"
+  },
+  {
+    "model": "CS-NU24BKY4F/CU-NU24BKY4F",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "188278"
+  },
+  {
+    "model": "CS-NU24BKY4W/CU-NU24BKY4W",
+    "star_rating": 4,
+    "ton": 1.73,
+    "iseer": 5.2,
+    "annual_kwh": 908.9,
+    "valid_till": "12/31/2027",
+    "app_no": "188278"
+  },
+  {
+    "model": "CW-LU183CG",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 3.45,
+    "annual_kwh": 1145.35,
+    "valid_till": "12/31/2029",
+    "app_no": "188307"
+  },
+  {
+    "model": "CW-LU183CM",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 3.45,
+    "annual_kwh": 1145.35,
+    "valid_till": "12/31/2029",
+    "app_no": "188307"
+  },
+  {
+    "model": "CW-LU183CR",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 3.45,
+    "annual_kwh": 1145.35,
+    "valid_till": "12/31/2029",
+    "app_no": "188307"
+  },
+  {
+    "model": "CS-RU24CKY/CU-RU24CKY",
+    "star_rating": 3,
+    "ton": 1.79,
+    "iseer": 4.5,
+    "annual_kwh": 1084.6,
+    "valid_till": "12/31/2027",
+    "app_no": "188308"
+  },
+  {
+    "model": "CS-RU24CKYD/CU-RU24CKYD",
+    "star_rating": 3,
+    "ton": 1.79,
+    "iseer": 4.5,
+    "annual_kwh": 1084.6,
+    "valid_till": "12/31/2027",
+    "app_no": "188308"
+  },
+  {
+    "model": "CS-RU24CKYF/CU-RU24CKYF",
+    "star_rating": 3,
+    "ton": 1.79,
+    "iseer": 4.5,
+    "annual_kwh": 1084.6,
+    "valid_till": "12/31/2027",
+    "app_no": "188308"
+  },
+  {
+    "model": "CS-EU24CKY3/CU-EU24CKY3",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1153.74,
+    "valid_till": "12/31/2027",
+    "app_no": "188342"
+  },
+  {
+    "model": "CS-EU24CKY3D/CU-EU24CKY3D",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1153.74,
+    "valid_till": "12/31/2027",
+    "app_no": "188342"
+  },
+  {
+    "model": "CS-EU24CKY3F/CU-EU24CKY3F",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1153.74,
+    "valid_till": "12/31/2027",
+    "app_no": "188342"
+  },
+  {
+    "model": "CS-EU24CKY3FM/CU-EU24CKY3FM",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1153.74,
+    "valid_till": "12/31/2027",
+    "app_no": "188342"
+  },
+  {
+    "model": "CS-SU24BKY3D/CU-SU24BKY3D",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1153.74,
+    "valid_till": "12/31/2027",
+    "app_no": "188342"
+  },
+  {
+    "model": "CS-SU24BKY3F/CU-SU24BKY3F",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1153.74,
+    "valid_till": "12/31/2027",
+    "app_no": "188342"
+  },
+  {
+    "model": "CS-SU24BKY3W/CU-SU24BKY3W",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1153.74,
+    "valid_till": "12/31/2027",
+    "app_no": "188342"
+  },
+  {
+    "model": "CS-YU24CKYD/CU-YU24CKYD",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1153.74,
+    "valid_till": "12/31/2027",
+    "app_no": "188342"
+  },
+  {
+    "model": "CW-XU185CGT",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 3.86,
+    "annual_kwh": 1023.31,
+    "valid_till": "12/31/2029",
+    "app_no": "188344"
+  },
+  {
+    "model": "CW-XU185CMT",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 3.86,
+    "annual_kwh": 1023.31,
+    "valid_till": "12/31/2029",
+    "app_no": "188344"
+  },
+  {
+    "model": "CW-XU185CRT",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 3.86,
+    "annual_kwh": 1023.31,
+    "valid_till": "12/31/2029",
+    "app_no": "188344"
+  },
+  {
+    "model": "CS-EZ24CKY/CU-EZ24CKY",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.5,
+    "annual_kwh": 1067.19,
+    "valid_till": "12/31/2027",
+    "app_no": "188345"
+  },
+  {
+    "model": "CS-EZ24CKYD/CU-EZ24CKYD",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.5,
+    "annual_kwh": 1067.19,
+    "valid_till": "12/31/2027",
+    "app_no": "188345"
+  },
+  {
+    "model": "CS-EZ24CKYF/CU-EZ24CKYF",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.5,
+    "annual_kwh": 1067.19,
+    "valid_till": "12/31/2027",
+    "app_no": "188345"
+  },
+  {
+    "model": "CS-EZ24CKYFM/CU-EZ24CKYFM",
+    "star_rating": 3,
+    "ton": 1.76,
+    "iseer": 4.5,
+    "annual_kwh": 1067.19,
+    "valid_till": "12/31/2027",
+    "app_no": "188345"
+  },
+  {
+    "model": "S-24PD1RY/U-24PD1R5Y",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1152.6,
+    "valid_till": "12/31/2027",
+    "app_no": "188493"
+  },
+  {
+    "model": "S-24PD9RYM/U-24PD9R5Y",
+    "star_rating": 3,
+    "ton": 1.91,
+    "iseer": 4.5,
+    "annual_kwh": 1152.6,
+    "valid_till": "12/31/2027",
+    "app_no": "188493"
+  },
+  {
+    "model": "S-24PB9ZYM/U-24PB9Z5Y",
+    "star_rating": 2,
+    "ton": 2.0,
+    "iseer": 4.15,
+    "annual_kwh": 1315.06,
+    "valid_till": "12/31/2027",
+    "app_no": "188494"
+  },
+  {
+    "model": "CS-EU18CKY3/CU-EU18CKY3",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 878.09,
+    "valid_till": "12/31/2027",
+    "app_no": "188496"
+  },
+  {
+    "model": "CS-EU18CKY3D/CU-EU18CKY3D",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 878.09,
+    "valid_till": "12/31/2027",
+    "app_no": "188496"
+  },
+  {
+    "model": "CS-EU18CKY3F/CU-EU18CKY3F",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 878.09,
+    "valid_till": "12/31/2027",
+    "app_no": "188496"
+  },
+  {
+    "model": "CS-EU24CKY5/CU-EU24CKY5",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "188695"
+  },
+  {
+    "model": "CS-EU24CKY5D/CU-EU24CKY5D",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "188695"
+  },
+  {
+    "model": "CS-EU24CKY5F/CU-EU24CKY5F",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "188695"
+  },
+  {
+    "model": "CS-EU24CKY5FM/CU-EU24CKY5FM",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "188695"
+  },
+  {
+    "model": "CS-NU24BKY5D/CU-NU24BKY5D",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "188695"
+  },
+  {
+    "model": "CS-NU24BKY5F/CU-NU24BKY5F",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "188695"
+  },
+  {
+    "model": "CS-NU24BKY5W/CU-NU24BKY5W",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "188695"
+  },
+  {
+    "model": "CS-QU30CKY/CU-QU30CKY",
+    "star_rating": 3,
+    "ton": 2.5,
+    "iseer": 4.5,
+    "annual_kwh": 1514.7,
+    "valid_till": "12/31/2027",
+    "app_no": "190104"
+  },
+  {
+    "model": "CS-QU30CKYD/CU-QU30CKYD",
+    "star_rating": 3,
+    "ton": 2.5,
+    "iseer": 4.5,
+    "annual_kwh": 1514.7,
+    "valid_till": "12/31/2027",
+    "app_no": "190104"
+  },
+  {
+    "model": "CS-QU30CKYF/CU-QU30CKYF",
+    "star_rating": 3,
+    "ton": 2.5,
+    "iseer": 4.5,
+    "annual_kwh": 1514.7,
+    "valid_till": "12/31/2027",
+    "app_no": "190104"
+  },
+  {
+    "model": "CS-QU30CKYFM/CU-QU30CKYFM",
+    "star_rating": 3,
+    "ton": 2.5,
+    "iseer": 4.5,
+    "annual_kwh": 1514.7,
+    "valid_till": "12/31/2027",
+    "app_no": "190104"
+  },
+  {
+    "model": "CS-ZU24CKY5/CU-ZU24CKY5",
+    "star_rating": 5,
+    "ton": 1.88,
+    "iseer": 5.8,
+    "annual_kwh": 881.39,
+    "valid_till": "12/31/2027",
+    "app_no": "190719"
+  },
+  {
+    "model": "CS-ZU24CKY5D/CU-ZU24CKY5D",
+    "star_rating": 5,
+    "ton": 1.88,
+    "iseer": 5.8,
+    "annual_kwh": 881.39,
+    "valid_till": "12/31/2027",
+    "app_no": "190719"
+  },
+  {
+    "model": "CS-ZU24CKY5F/CU-ZU24CKY5F",
+    "star_rating": 5,
+    "ton": 1.88,
+    "iseer": 5.8,
+    "annual_kwh": 881.39,
+    "valid_till": "12/31/2027",
+    "app_no": "190719"
+  },
+  {
+    "model": "CS-ZU24CKY5FM/CU-ZU24CKY5FM",
+    "star_rating": 5,
+    "ton": 1.88,
+    "iseer": 5.8,
+    "annual_kwh": 881.39,
+    "valid_till": "12/31/2027",
+    "app_no": "190719"
+  },
+  {
+    "model": "S-18PD1RY/U-18PD1R5Y",
+    "star_rating": 3,
+    "ton": 1.54,
+    "iseer": 4.6,
+    "annual_kwh": 908.43,
+    "valid_till": "12/31/2027",
+    "app_no": "190849"
+  },
+  {
+    "model": "S-18PD9RYM/U-18PD9R5Y",
+    "star_rating": 3,
+    "ton": 1.54,
+    "iseer": 4.6,
+    "annual_kwh": 908.43,
+    "valid_till": "12/31/2027",
+    "app_no": "190849"
+  },
+  {
+    "model": "CS-RU24DKY/CU-RU24DKY",
+    "star_rating": 3,
+    "ton": 1.79,
+    "iseer": 4.5,
+    "annual_kwh": 1084.6,
+    "valid_till": "12/31/2027",
+    "app_no": "197042"
+  },
+  {
+    "model": "CS-RU24DKYD/CU-RU24DKYD",
+    "star_rating": 3,
+    "ton": 1.79,
+    "iseer": 4.5,
+    "annual_kwh": 1084.6,
+    "valid_till": "12/31/2027",
+    "app_no": "197042"
+  },
+  {
+    "model": "CW-XU185DGT",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 3.86,
+    "annual_kwh": 1023.31,
+    "valid_till": "12/31/2029",
+    "app_no": "197431"
+  },
+  {
+    "model": "CW-XU185DMT",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 3.86,
+    "annual_kwh": 1023.31,
+    "valid_till": "12/31/2029",
+    "app_no": "197431"
+  },
+  {
+    "model": "CW-XU185DRT",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 3.86,
+    "annual_kwh": 1023.31,
+    "valid_till": "12/31/2029",
+    "app_no": "197431"
+  },
+  {
+    "model": "CW-LU183DG",
+    "star_rating": 3,
+    "ton": 1.47,
+    "iseer": 3.45,
+    "annual_kwh": 1157.17,
+    "valid_till": "12/31/2029",
+    "app_no": "197432"
+  },
+  {
+    "model": "CW-LU183DM",
+    "star_rating": 3,
+    "ton": 1.47,
+    "iseer": 3.45,
+    "annual_kwh": 1157.17,
+    "valid_till": "12/31/2029",
+    "app_no": "197432"
+  },
+  {
+    "model": "CW-LU183DR",
+    "star_rating": 3,
+    "ton": 1.47,
+    "iseer": 3.45,
+    "annual_kwh": 1157.17,
+    "valid_till": "12/31/2029",
+    "app_no": "197432"
+  },
+  {
+    "model": "CS-EZ12DKY/CU-EZ12DKY",
+    "star_rating": 3,
+    "ton": 0.94,
+    "iseer": 4.5,
+    "annual_kwh": 567.78,
+    "valid_till": "12/31/2027",
+    "app_no": "198204"
+  },
+  {
+    "model": "CS-EZ12DKYD/CU-EZ12DKYD",
+    "star_rating": 3,
+    "ton": 0.94,
+    "iseer": 4.5,
+    "annual_kwh": 567.78,
+    "valid_till": "12/31/2027",
+    "app_no": "198204"
+  },
+  {
+    "model": "CS-EZ18DKYX/CU-EZ18DKYX",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.82,
+    "valid_till": "12/31/2027",
+    "app_no": "198210"
+  },
+  {
+    "model": "CS-EZ18DKYXD/CU-EZ18DKYXD",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.82,
+    "valid_till": "12/31/2027",
+    "app_no": "198210"
+  },
+  {
+    "model": "CS-EZ18DKYXM/CU-EZ18DKYXM",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 876.82,
+    "valid_till": "12/31/2027",
+    "app_no": "198210"
+  },
+  {
+    "model": "CS-EU12DKY3/CU-EU12DKY3",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.19,
+    "valid_till": "12/31/2027",
+    "app_no": "198237"
+  },
+  {
+    "model": "CS-EU12DKY3D/CU-EU12DKY3D",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.19,
+    "valid_till": "12/31/2027",
+    "app_no": "198237"
+  },
+  {
+    "model": "CS-EU12DKY3M/CU-EU12DKY3M",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.19,
+    "valid_till": "12/31/2027",
+    "app_no": "198237"
+  },
+  {
+    "model": "CS-SU12CKY3/CU-SU12CKY3",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.19,
+    "valid_till": "12/31/2027",
+    "app_no": "198237"
+  },
+  {
+    "model": "CS-SU12CKY3M/ CU-SU12CKY3M",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.19,
+    "valid_till": "12/31/2027",
+    "app_no": "198237"
+  },
+  {
+    "model": "CS-YU12DKYD/CU-YU12DKYD",
+    "star_rating": 3,
+    "ton": 0.98,
+    "iseer": 4.5,
+    "annual_kwh": 593.19,
+    "valid_till": "12/31/2027",
+    "app_no": "198237"
+  },
+  {
+    "model": "CS-EU18DKY3XH/CU-EU18DKY3XH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.14,
+    "valid_till": "12/31/2027",
+    "app_no": "198265"
+  },
+  {
+    "model": "CS-EU18DKY3XHD/CU-EU18DKY3XHD",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.14,
+    "valid_till": "12/31/2027",
+    "app_no": "198265"
+  },
+  {
+    "model": "CS-EU18DKY3XMH/CU-EU18DKY3XMH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.14,
+    "valid_till": "12/31/2027",
+    "app_no": "198265"
+  },
+  {
+    "model": "CS-HU18DKY3XH/CU-HU18DKY3XH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.14,
+    "valid_till": "12/31/2027",
+    "app_no": "198265"
+  },
+  {
+    "model": "CS-HU18DKY3XHD/CU-HU18DKY3XHD",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.14,
+    "valid_till": "12/31/2027",
+    "app_no": "198265"
+  },
+  {
+    "model": "CS-HU18DKY3XMH/CU-HU18DKY3XMH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.14,
+    "valid_till": "12/31/2027",
+    "app_no": "198265"
+  },
+  {
+    "model": "CS-SU18CKY3XH/CU-SU18CKY3XH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.14,
+    "valid_till": "12/31/2027",
+    "app_no": "198265"
+  },
+  {
+    "model": "CS-SU18CKY3XMH/CU-SU18CKY3XMH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.14,
+    "valid_till": "12/31/2027",
+    "app_no": "198265"
+  },
+  {
+    "model": "CS-YU18DKYXDH/CU-YU18DKYXDH",
+    "star_rating": 3,
+    "ton": 1.5,
+    "iseer": 4.5,
+    "annual_kwh": 908.14,
+    "valid_till": "12/31/2027",
+    "app_no": "198265"
+  },
+  {
+    "model": "CS-EZ18DKY/CU-EZ18DKY",
+    "star_rating": 3,
+    "ton": 1.42,
+    "iseer": 4.5,
+    "annual_kwh": 860.25,
+    "valid_till": "12/31/2027",
+    "app_no": "198404"
+  },
+  {
+    "model": "CS-EZ18DKYD/CU-EZ18DKYD",
+    "star_rating": 3,
+    "ton": 1.42,
+    "iseer": 4.5,
+    "annual_kwh": 860.25,
+    "valid_till": "12/31/2027",
+    "app_no": "198404"
+  },
+  {
+    "model": "CS-EU18DKY3/CU-EU18DKY3",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.25,
+    "valid_till": "12/31/2027",
+    "app_no": "198405"
+  },
+  {
+    "model": "CS-EU18DKY3D/CU-EU18DKY3D",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.25,
+    "valid_till": "12/31/2027",
+    "app_no": "198405"
+  },
+  {
+    "model": "CS-EU18DKY3M/CU-EU18DKY3M",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.25,
+    "valid_till": "12/31/2027",
+    "app_no": "198405"
+  },
+  {
+    "model": "CS-SU18CKY3/CU-SU18CKY3",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.25,
+    "valid_till": "12/31/2027",
+    "app_no": "198405"
+  },
+  {
+    "model": "CS-SU18CKY3M/CU-SU18CKY3M",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.25,
+    "valid_till": "12/31/2027",
+    "app_no": "198405"
+  },
+  {
+    "model": "CS-YU18DKYD/CU-YU18DKYD",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 877.25,
+    "valid_till": "12/31/2027",
+    "app_no": "198405"
+  },
+  {
+    "model": "CS-EU24DKY5/CU-EU24DKY5",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "198931"
+  },
+  {
+    "model": "CS-EU24DKY5D/CU-EU24DKY5D",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "198931"
+  },
+  {
+    "model": "CS-EU24DKY5M/CU-EU24DKY5M",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "198931"
+  },
+  {
+    "model": "CS-NU24CKY5/CU-NU24CKY5",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "198931"
+  },
+  {
+    "model": "CS-NU24CKY5M/CU-NU24CKY5M",
+    "star_rating": 5,
+    "ton": 1.73,
+    "iseer": 5.8,
+    "annual_kwh": 814.61,
+    "valid_till": "12/31/2027",
+    "app_no": "198931"
+  },
+  {
+    "model": "CS-RU18DKY/CU-RU18DKY",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 878.2,
+    "valid_till": "12/31/2027",
+    "app_no": "199053"
+  },
+  {
+    "model": "CS-RU18DKYD/CU-RU18DKYD",
+    "star_rating": 3,
+    "ton": 1.45,
+    "iseer": 4.5,
+    "annual_kwh": 878.2,
+    "valid_till": "12/31/2027",
+    "app_no": "199053"
+  },
+  {
+    "model": "CS-RU12DKY/CU-RU12DKY",
+    "star_rating": 3,
+    "ton": 0.95,
+    "iseer": 4.5,
+    "annual_kwh": 575.76,
+    "valid_till": "12/31/2027",
+    "app_no": "199057"
+  },
+  {
+    "model": "CS-RU12DKYD/CU-RU12DKYD",
+    "star_rating": 3,
+    "ton": 0.95,
+    "iseer": 4.5,
+    "annual_kwh": 575.76,
+    "valid_till": "12/31/2027",
+    "app_no": "199057"
+  },
+  {
+    "model": "CS-EU18DKY5X/CU-EU18DKY5X",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.18,
+    "valid_till": "12/31/2027",
+    "app_no": "199100"
+  },
+  {
+    "model": "CS-EU18DKY5XD/CU-EU18DKY5XD",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.18,
+    "valid_till": "12/31/2027",
+    "app_no": "199100"
+  },
+  {
+    "model": "CS-EU18DKY5XM-G/CU-EU18DKY5XM-G",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.18,
+    "valid_till": "12/31/2027",
+    "app_no": "199100"
+  },
+  {
+    "model": "CS-EU18DKY5XM-S/CU-EU18DKY5XM-S",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.18,
+    "valid_till": "12/31/2027",
+    "app_no": "199100"
+  },
+  {
+    "model": "CS-EU18DKY5XM/CU-EU18DKY5XM",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.18,
+    "valid_till": "12/31/2027",
+    "app_no": "199100"
+  },
+  {
+    "model": "CS-NU18CKY5X/CU-NU18CKY5X",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.18,
+    "valid_till": "12/31/2027",
+    "app_no": "199100"
+  },
+  {
+    "model": "CS-NU18CKY5XM/CU-NU18CKY5XM",
+    "star_rating": 5,
+    "ton": 1.45,
+    "iseer": 5.8,
+    "annual_kwh": 681.18,
+    "valid_till": "12/31/2027",
+    "app_no": "199100"
+  }
+]
